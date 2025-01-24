@@ -1,0 +1,18 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $cloud_tpu [128x128/16z] {
+xPg7ahGu38GjMLBh_L_umh1Bptc1ITQbtrzbGdq2LA8Bt8vOB1QBnMAnC8yDTsvKZozSkTNtGssYFtRk_Dnuv-V6vV-4vL_-vHVHF_6WQgTpO-TMRdJz4v4v
+r_q-zhRUOmfUSVNrTq1Y6l9Vz6jCGvV_EPRVTZo8Sy8QWD1JEW3SZWlYjlF8_t226H9sKJyIVZ6-tlBtHf2PsaxXRftdl_DfPgATqf4PhSgl3cJ2soc1X5Nv
+Ev2PYTxE46H2YloAl05_q7r5VaT-8HVT1wtoxthqY-v3c-_lsiqZDquVW6famZxpkyTFa02G1Dvba3iIcGcvyhk_DV-H8y1VIx14RiJtLfdt_a42o0I-vMC9
+3bOMCjyVRbr5_2OmYw44GnB4R3_F5z_cczoN43SzWPRvc-u3Hde0uECWY3g_yFN34aPGvs_OnnzBo16fymSuOJUaezn_7Ny2vVw31YG--gE_xHScoSFpsO2a
+Ztu09dBqVK0-p5ziG28nsBSIl2J_DHyRK35SVcmRKECV6r0tEyE1DJ6WpAz8nF3iOHgR7EZRvgZnZmsuZNxxlW_UMQSN-CS6T32EWNLLvNys80SFeAtUFpJW
+ROjiUc7qh_Pps21KjoONzWMYsizPYmIJy3p_-VnblnFunOlXPFv-bh-GzrWxzDVbFqCIsF0IWbNxuv_s7prztXhqQZ-E_Do5gFKxag3_p22mIh_dFP2338Ww
+lmJojFsGfNxcd5qKXnaOMkJlsCR-bgwGVf91eH_vtO_dl-_ZNZqGhct0WKomW3U_FyGHAi6WSKOFX2SFc_Z-Cp1eNDDPvqG_-5tZgGBIfllXZztCux39VlJs
+B5ikigb-Flhd2vZeTscl841cHb7-lOQJ6lFyrbubpgx_lVzFnW19z7oZTE2D_q_h_r-DV_dN-eT___gJ-lKt__xrH_NhhzRwjth_yY__ylyhrzyl5el5Oh5O
+_0u
+}
+
+GCPEntityColoring(cloud_tpu)
+!define cloud_tpu(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_tpu, cloud_tpu)
+!define cloud_tpu(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_tpu, cloud_tpu)
+!define cloud_tpuParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_tpu, cloud_tpu)
+!define cloud_tpuParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_tpu, cloud_tpu)

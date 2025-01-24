@@ -1,0 +1,14 @@
+'SPDX-License-Identifier: MIT
+sprite $vmware_engine [128x128/16z] {
+xTXLaWCn38HX3TZM_I-yp5B5qKvrX_f_Ltt3OBkHb59A-V4E-lBbovTljUxGbozVldm_qJzz-KiUpVSyeYzVldpvDkd-VVdovSltGanVldpBkqbVldpvOrli
+fPthnuh-caVpFUyUV6FxoxhOxy1-3WtxZkAFCDJiCxm_FAi70EClqq6exw5u283-URE0XUxIncyWtsEvW_67pzi_582_H8tweiqiZw7yaKhHtq1-uL93-Fti
+cts5-8Md3TQF4CCVXUVj2l1B3toUdsy0u4ExzCexDN7KxvPtQTykxTk3-qxnOvphRyfJ_SYZ_Rt28vhmH3_o37_byh72vm_d07GUdqiz__mbRW2LjzNd6R8-
+vLU3DYRyRk0QSU_hQvoKs7oChSU8-lnUR7PVAQMKUWO
+}
+
+GCPEntityColoring(vmware_engine)
+!define vmware_engine(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, vmware_engine, vmware_engine)
+!define vmware_engine(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, vmware_engine, vmware_engine)
+!define vmware_engineParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, vmware_engine, vmware_engine)
+!define vmware_engineParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, vmware_engine, vmware_engine)
+

@@ -1,0 +1,15 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $dialogflow [128x128/16z] {
+xTY7ZImn30DGPxd_XdyKmWK2Ore7NX0RUFIEkQbymMGocKochzML-hzqeUuDXBet4EYg1jNrr-bLe_CDU1qtqEXy0rx73JGwtu3NSGEbZXlmkge1rla6lCut
+u7LL0rxd6_0wtm3hiWPZXMUeVV7hhxr_slrftt_qxx-21gIk__pLV__GV_-gk06l7pIQiqL__-us3tpRe06jcuqZ7pRWzBqF_OqRC3hX7pN0-hAz6HyrmFy_
+89tppnfWdVLF6c2TzvysmBhj6_zPWqVwlOyROFtIfniqrozzq83GEPze07JInmsmlctlU1ytm7gyZnjW_Tx73O0UxkC6M8_tSOCsWHxeumP03_Pn0zS5FiXN
+zTDFF_tqqqz_V8JVo_CiKntVqyr2zTNAMUhS5gRRAETfonI7nm-1FpoTSTt0vjq_mSkkzAFLnJy4_l3yG-3l7TwYMUYzuxV87_x-8GWEpxqXygFZ7m8_EdwB
+_EZuXq3Skz02Hjoxo9ZWyC07XrVvjceH-DpeU1-FJkURjL84Fd_lU1-CJkBpX-TzC3g1xwCJ-JuwbU-Za_csHr74YD45-puwaU-Za_a-EfblFZfHUYlV89bC
+9fFv3G
+}
+
+GCPEntityColoring(dialogflow)
+!define dialogflow(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, dialogflow, dialogflow)
+!define dialogflow(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, dialogflow, dialogflow)
+!define dialogflowParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, dialogflow, dialogflow)
+!define dialogflowParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, dialogflow, dialogflow)

@@ -1,0 +1,15 @@
+'SPDX-License-Identifier: MIT
+sprite $free_trial [128x128/16z] {
+xTfN6jmW34LXoMgm_mMd9tok0c9Ix__E7CfqctO00000U5Ft-CJTJ3Vk6oDgtqUrCHDOuy1Dc9viwd6WJ7CaBhdmNTpYahoJRsoZ4nQFEqBZjdZYaXpLtaR3
+F1BAsSOtFh_x-Gp48oKqoAA7RPj63nlV_bSv3OgN_LdzFt__DLwbD8ZZLKoZTEtoSxxqz7DSQYrVnAJoHQs5QGP7RGOcyhNQ1DCaBVMaV76xs9EYD8_53mzv
+sf6MlL1SUBIejkUNldRt2_SJszDqDcATuk1Btt92JzGw-MpVD5dzidw-0smB-mqdor_Tb-JqL_ULRjZIVeD-WpxwwAEFFlheezzhPTyxNFOJzat-mpztwkSA
+Kv-wfb_fB-YZZ_wgrnzriZNlFqQT5ht_ljdtd-kZZpxwwAEFFlheeuy--kYZZpxwkgQlr4dMz8KwyPe-KozPqHVgf-_tbKQ89KRxGcDOTAXVQYrsShxl2W00
+0E0Z
+}
+
+GCPEntityColoring(free_trial)
+!define free_trial(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, free_trial, free_trial)
+!define free_trial(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, free_trial, free_trial)
+!define free_trialParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, free_trial, free_trial)
+!define free_trialParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, free_trial, free_trial)
+

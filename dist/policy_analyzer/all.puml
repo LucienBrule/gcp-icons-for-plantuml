@@ -1,0 +1,14 @@
+'SPDX-License-Identifier: MIT
+sprite $policy_analyzer [128x128/16z] {
+xTfLOiD038JXMTRzBrokWcPBAipt4ivlzWPmYuY8gCi10mTLEQZXY2771SszgjXDJe6zcfoY1ys--ktzbdSfP_KBTac7--opppxxxBFFFlkovE_rsMUV_HtO
+PvzzzXsFVrfZdttsCQBwgftKto-5zLLGNsH0kVVbKqo_o8L_lykjujgN9xfRNwPuzBFCiJl-hVsrBXdsPPLcrPUr7Fhiiz_mQPpMdpTzn1_-VTpoxkEUQryB
+gUWrptvzClxnwciWt_Ny-lsk9xvzpQc1DoMeh_SSw2-xV_ySt6z_PFwniu_8_lpsFs0m0Hls_mI32MX0MddymrPfwm9eiyT_M9ax_rrceiDA4JMp5657vYV0
+l3yc_d8wSDaYOMbo_AiJODiVCa4d0BPaQG9WAyaak90VEm6S03Y9ogkel8hAgowt4ho5pRmAhUjQA9X1H4Jq2W
+}
+
+GCPEntityColoring(policy_analyzer)
+!define policy_analyzer(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, policy_analyzer, policy_analyzer)
+!define policy_analyzer(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, policy_analyzer, policy_analyzer)
+!define policy_analyzerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, policy_analyzer, policy_analyzer)
+!define policy_analyzerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, policy_analyzer, policy_analyzer)
+

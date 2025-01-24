@@ -1,0 +1,15 @@
+'SPDX-License-Identifier: MIT
+sprite $migrate_for_compute_engine [128x128/16z] {
+xTe5bkD038HXDTVzBxmx65BxsKfPFQJ_qM2-2gFyaA8eYg86OCXj6G2It0O0LJp2UtAjugsa_cYiyQ5-LF1U-5pXXnz--0bqmWJm_NG__F3bYNwe7tuVbyxm
+nwLclinplkwx--67Bsx--2MtVndJqYA_OwEwniTch1z--E7NVkaClr-gvjjjpjTzTp_yyCNFZzk_euLV1YwjzYkkhVSnQvcFhVR_Ol3-m7Prvu-wq3xtKXxj
+Owzd_7efao_syqU6vG4_7yVoyd4qokTvD0y_OLBEcENXJtaHPe3b7-kS5ycyBmUQy-O1lA-HlC07R0EQgwy7434-vBtYx7Sm0tWV80VmFZ-0z_a1l2ywSa0Y
+_Vc0zjhbcqjT_KI4zES3x9__u7ryhOyLVb7DU3TVD_-RSgfVh3o4yNKctj_NlBC_h3pdwmoyYs_Z-_tZXg8FIAnPUCXdGxtiK8pyha8y0JjZ02Q9HmKw0yz7
+FFrTEa3S8da-alSVCCIvJZwKvSDsigJ4wdoipfTyy2YAeYZw3m
+}
+
+GCPEntityColoring(migrate_for_compute_engine)
+!define migrate_for_compute_engine(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, migrate_for_compute_engine, migrate_for_compute_engine)
+!define migrate_for_compute_engine(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, migrate_for_compute_engine, migrate_for_compute_engine)
+!define migrate_for_compute_engineParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, migrate_for_compute_engine, migrate_for_compute_engine)
+!define migrate_for_compute_engineParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, migrate_for_compute_engine, migrate_for_compute_engine)
+

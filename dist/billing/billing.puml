@@ -1,0 +1,11 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $billing [128x128/16z] {
+xTer0eD05431ZyFz3noNCfwrUHtLqC1gj9SaIPAczrlUxwudy4-T-NJ-SkHJ-ajoVqhhJudzXVzH_CHj7_P_dy_dy_bylldNCJwV7tyglS_dy_byun-Vp-Vp
+ttX7_Yb-N7hgERtFv_Fz__YVnET_4hzl-_vVb_R-vHp7nbH-5vU657uVxIL9agGz
+}
+
+GCPEntityColoring(billing)
+!define billing(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, billing, billing)
+!define billing(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, billing, billing)
+!define billingParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, billing, billing)
+!define billingParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, billing, billing)

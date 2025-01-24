@@ -1,0 +1,18 @@
+'SPDX-License-Identifier: MIT
+sprite $google_kubernetes_engine [128x128/16z] {
+xPk7akCm34EFe2Jw_t_uoZRUMIc8ObYNMM7xHjPZ0CvORZzUK4jBIqjBvcuJwN1tXqt2mp-4QVHf5PZlP2S7tmasn_eK9j5JE3duNdPky2Ut0PmG9j5J40NF
+oqu9tYo_xmIJMuyFJwwzBASdNrh15NkJVoCWLV1_bqRKAR0-aSHW2JtvWWe8GvDFn2NOntVyGzk0U1_99oeuDFYUpsy-7Zp19zfWE7YUpy_21q_m2HTjX8_R
+Op4o5S_7_JOnOZAUJqPct2WynIVc9LmQuPF9KeC7-Oprd5c7yWt4sb_7XzyG17o6dZ8bt_o-O2g-mId1D7muAGMVhm32_ZCGT04_PKJq4huH8UIOm_dM2dt-
+oUfcn_DRSsvnvH4QVgkuV_uHBRPDmNzJIKv7_x0-DWt_Gtxh_7E9DxgGtuU0dVLA_Zu4wwpNyliGEkkb_2w4tdezFqD8woFnOdxAE-kb_5xLqlgp-Uc0npQB
+ZpFuYx_uYu_7-3YOx-qnVlYHVDJ6yLFHS1JVaixpjzYg7S6taZoQ7s_VeZpFzzpNe5By2BVwMO4_nKzaoM9kyFDDeqMsmIZVodwrPUKEFzlE8pxRO91VqleK
+wWr-XFShqeWongyzFKFe-Tbl-nLv6-HdyAaCOS-FsWz5Yt6-bu_WEw5s_DZxb6rG_K4-CTx_uQVrlQ0v_sub-Mbz9uFi-WDgzNT-W-3w0nC2thuNqVMNb1rr
+-TQKDrUDptBu9LoZNUH3W61pIHiOGLS4o6-dQ0C-U46E4-u0aTDvG_cu16r0rgaCOT8TO4ewPoyVaAeDYE2r8U2_kmCKhtd_hVx-Otq8UCtxp_Lh0tqRsFpd
+BwPLWE_u_4rU_tj1BIqjBItz0W
+}
+
+GCPEntityColoring(google_kubernetes_engine)
+!define google_kubernetes_engine(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, google_kubernetes_engine, google_kubernetes_engine)
+!define google_kubernetes_engine(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, google_kubernetes_engine, google_kubernetes_engine)
+!define google_kubernetes_engineParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, google_kubernetes_engine, google_kubernetes_engine)
+!define google_kubernetes_engineParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, google_kubernetes_engine, google_kubernetes_engine)
+

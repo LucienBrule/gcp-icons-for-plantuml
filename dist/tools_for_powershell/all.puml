@@ -1,0 +1,17 @@
+'SPDX-License-Identifier: MIT
+sprite $tools_for_powershell [128x128/16z] {
+xPXNOjmm44CrNVU_S7e2Do4ShhldVMuZ0G4iUznZ68PX68PX68PX68PXK3MA72-A6CVZXUKR9rFVKdvalgW1nl7yWRsT-v4_aJULd-d7xSXTUl8HGTdlfQdz
+GGtXMvAF24ecs7xG2lVNv2E2bi1Qya5VVYA2aK3sv4jVFYAe2NnlbLaC7-JVRe0z8L_MvBC8nePyXAyb7t7p1FfIuODyq3UWtprL4L65_0I-sy7Ly2do90hv
+tGZskuVHmHCJY4O7sztJ0o1ezr5Ym6xty0wP0EcWRNQFguTEti5obVtmyU6X4yZzDohngzlT8pzXl8DLZfzzHlaWM0JhJFmkaTyE7p3ImJeBqszqpwZzF068
+ODHv1kQ_Bvy_mBYAeDQP4D3k7hSVN6y3MOvVQ8PlVtn4KCF0VyVtpV4j7w4NwkZZBtyk_-DYPQ46n5caVgtnPLa-vkXrmW2zAVz-KIrgG9w5YSij_O-BbOKs
+qC_AJ1Xmm_gdw_9XGDNzqsfZ_MVoyMrkG1I-t3F0MFZmPOQQrwEpokx-xylT0nRuFbpfdN_wtGEQW1m1LhflFVdijDeu_pQx1zXnNJldVzwzbW7q_YLizFHk
+zmvsOvGd_sfqKrNp1FtkyI3frHFmv5XRFdXi07H0FYMETlU0aGukojTMz_eTJ8up-PiTb7NtKqZtjWtGPVdMM7fw7TmFdnmTB00ws0WVwTu-3ValWYp9b-F5
+Q7JlnGpmDt4V4Lm8tmloDlA11kT--8PX68PX68PX68PX68Rl
+}
+
+GCPEntityColoring(tools_for_powershell)
+!define tools_for_powershell(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, tools_for_powershell, tools_for_powershell)
+!define tools_for_powershell(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, tools_for_powershell, tools_for_powershell)
+!define tools_for_powershellParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, tools_for_powershell, tools_for_powershell)
+!define tools_for_powershellParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, tools_for_powershell, tools_for_powershell)
+

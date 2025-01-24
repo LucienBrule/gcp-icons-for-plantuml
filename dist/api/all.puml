@@ -1,0 +1,13 @@
+'SPDX-License-Identifier: MIT
+sprite $api [128x128/16z] {
+xTK7RiGm34HHkevo_mi7BKrSOoaJYjj_wCA07rtsB0000000O55bj2spdC4g2dWxjrTMlJGc-jeocQDDk_kHJNZRtW-DMhSA22tdU5xQqH_ZDstjq9UJEThS
+7nfkpXtwUczgkBbswAlbvfNxziEznxVUnmzPvL_xHOVsfKFxEhGl7ThNeNtfqBwExUlqVVhqwN__afNjhHpBztLiN_6-d3dTBwc-fVkAzzMXhtY_oB5ilpJq
+vIpflk9zUPRjAzMtRByqz5MRBTrNec-MxYlOzoPpkly_7dtwzEdJfw-0W_hqwTEdJ__s000000309m
+}
+
+GCPEntityColoring(api)
+!define api(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, api, api)
+!define api(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, api, api)
+!define apiParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, api, api)
+!define apiParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, api, api)
+

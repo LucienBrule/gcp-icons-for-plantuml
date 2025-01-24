@@ -1,0 +1,12 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $quantum_engine [128x128/16z] {
+xTerOiD0443H4Ul-9qut6vYOITBxtUAhp8x_aoHrhNBspDQx6rhbRBrrUpwVp-VFpsXyYC_dy_dy8RAxVJw_6xBvLz4wvqVs-vPbpVXyFfzVznH_ZEopV3wV
+p--of_ZJa7dzuVFv_Bh2lwxpp_zyFf_Fhv__pzT7Df_fpFF_Utq-dy-FFdkAFqzPdEaf_XWdulFz_u7Fv_F7NosjCPkAoM9hDiJDhQrozipMxCq-dy_dlpz9
+qXS
+}
+
+GCPEntityColoring(quantum_engine)
+!define quantum_engine(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, quantum_engine, quantum_engine)
+!define quantum_engine(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, quantum_engine, quantum_engine)
+!define quantum_engineParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, quantum_engine, quantum_engine)
+!define quantum_engineParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, quantum_engine, quantum_engine)

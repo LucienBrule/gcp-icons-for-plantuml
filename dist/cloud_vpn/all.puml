@@ -1,0 +1,14 @@
+'SPDX-License-Identifier: MIT
+sprite $cloud_vpn [128x128/16z] {
+xTk5UiCm34LXMvPqzVvFlCznoixGrUYUCVvj6ClI66ECoRmitZ7FSlYAc0PFzUdJfq-VFdtwzEdJpmbxPtYKvekE32FJKIsvLH-Lu-ZJfq-VFdtwLMsMIfBl
+EAWSrCm1jxRAZta7lW90101elY-EE0T8iY_0W4yV9TMlmAQQgksFG39zHzVR-AAXV-M9VaD4UBr8Y83c-PjNhoXCVarM-M7tTKqV1uZTjiptkz3zMgxRlkNJ
+rlkJoSsGx5kvIR_PDtplyFTCtn-clufudezsNzoF0Es-jflqkSkVa79EnXX9MluDBz1klvGylrWNmsHpBCRuIFJ764307J6clUJj7qVqi7_mckmNxVG8OIks
+__0XlrJ3dabPuHlc-Uk7-gIksl-HUTp_eq-VFdtwzEadd7zCEF_Ayz_qwTEdJvy-VVhqwMVVVvH__nLZZB4N
+}
+
+GCPEntityColoring(cloud_vpn)
+!define cloud_vpn(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_vpn, cloud_vpn)
+!define cloud_vpn(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_vpn, cloud_vpn)
+!define cloud_vpnParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_vpn, cloud_vpn)
+!define cloud_vpnParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_vpn, cloud_vpn)
+

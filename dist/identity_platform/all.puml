@@ -1,0 +1,19 @@
+'SPDX-License-Identifier: MIT
+sprite $identity_platform [128x128/16z] {
+xTY9SkDC20HWmG0zx__2_-aAMGkvFEhWNEgw4wq-8jgZycwdSkNAbIjNv5Fr4R3FqzKZW1YVeuj5HCmv4VefZpvk_iHqURsU_fo0lNhnwVyNn7ZbudV-wsem
+8WgVg06Xf_-Q6gX7xVVN81TV-_qr6167VdyDXaSL9DnP0wtrS602c4KDcXVlflB_BzLY5XDev-9DxmO4YXfqBTvsToudWBKithLUKYpKW5ZyyHzb-E3JeD0V
+_aMZFWsusjLydO7oD60NNpzy6UO1X6cn0h86Ob75T_DX0k_l7vZb14he6NcxmkF_tDzVRZvJWn6PUlbw__u1Hbs1zHgenr7sVEJzHxM1zHf876OKb-JjeVa0
+3W8X_Do-b_x4xTSFV6LypthKljt6Enw0yjyMNFhv0BJ9bonVuMS5fSdFbyAHVxiaMdpFzfL-BY3GuLlv--hpvP_Yv_tjitnyiZ-bqVVYur_tp_4v_KTqzZ-a
+_FvV7C1DvuzM5nJhrzdZMxM0ul4RUdolhYZUhj7aXnOluFtsTSuctull9Sc_VJxGvOVk1zZnWjdc-xOR81_-BT7W5z--rDC7yiaCp4O_D2zKYuW00DVy8MQh
+7_B7jJg6vazo-Ns-oyD_s-w77zz3WDdePmdhZEHR_Ne7ugat-HcJwh-_-lsCZnn1XgVUxMVSnZynZvbwery7QN-AFpE_qBzyzFl-A8731F0Hlcrd8mxU7niH
+0-cxRbG6mFWk6naDdF1pzNmSP_sycefXoI-VlHn5ZrAKu3c_UlQsVFxW_VWIMFN7bX4_SVu2UdSIhFZlBzHpvpymTYLunhzV_JZz_e7TbU0flrZzeb-NG0DF
+-TNgr_qiGSRnZ5-jVjslIw2BftSGVfRWR2nOFqkm7l5W_Ip1UZI2zxC4gnb1-7m9B0YVBe5u47uPG1RyyT4-wWV0Jy3f_0ISpa_mX6x7EZy1f_CJS3e_0QVp
+4t0wFm6dynDmEZy1f_CJS3e_0QVp4t0wFm6dynCGEf6SWDFv2JYTdu3J-Gb0wVm4bCv7pkbNhbovSkLl
+}
+
+GCPEntityColoring(identity_platform)
+!define identity_platform(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, identity_platform, identity_platform)
+!define identity_platform(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, identity_platform, identity_platform)
+!define identity_platformParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, identity_platform, identity_platform)
+!define identity_platformParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, identity_platform, identity_platform)
+

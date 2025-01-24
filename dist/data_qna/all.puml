@@ -1,0 +1,12 @@
+'SPDX-License-Identifier: MIT
+sprite $data_qna [128x128/16z] {
+xTYnMSD05C1WVNb9xFqdfhuAWCC28Ytmz-8NLbLLLVNSsKFWrsJ-UPFzf-Zdv-TVckrZ-oFxVDJFFtVs_BH_RkwJ_hcxc-oVk_py_FpyMVkdVdv-Fck_qC_F
+pt-koNv-Vdv-Vdv-Vdu-mCW-8_kCx3EopmZ_Ssbadv5zHlOPsMTadv5zHlQvp3za7zK_-8QFaCmZyyWyCe_C8_F8F3AFp2Fp_3nVLLLLLMy
+}
+
+GCPEntityColoring(data_qna)
+!define data_qna(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, data_qna, data_qna)
+!define data_qna(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, data_qna, data_qna)
+!define data_qnaParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, data_qna, data_qna)
+!define data_qnaParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, data_qna, data_qna)
+

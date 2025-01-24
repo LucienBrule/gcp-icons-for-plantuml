@@ -1,0 +1,14 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $cloud_apis [128x128/16z] {
+xTe7YcGn34LHmHVYxt_3avDhEX_QZ-2tWNE95UI2nNPsTdPsTasMlsQY_3KpGVw7Fp7-bpyn_fS_CVwNFm5-yIV0B_u4-CMV0B_u4-0NVmByuiz-VlLdErz5
+0Sv3WFlrOp6_VYtarvz5_Ffd0R-MRVVhOPlz-czR_NfY6_rwSjlyUcQR_7fsM_nwOHlyUd5JUtTt9NVVTqTv2d2U0fod0ESfmFbemBskTtpJNVcN0wvbdyPN
+KO3p5E0y1JXF0SvJWFCKu3m5E4y1pbE0ynZWl0Suxm7EUu3p7k2y1yooMjVlysjTpx_hiW3dAS1v352U0v3t0EGz07aFGDu3aFS0v3q0UGz0tWEGzm3aFG1v
+3m2UrW_yzhNnldRU0vptW8gjcVU0YgvhNMVl3vszltJs_jJP-rjdxu-TlRzszlxSsVjxPzyVTFRzHMVVdtJs_Krdtn_rnFmBl-bw0F8UOBm76Ey1ndk0yHvW
+l0SOxm76Uu3n7c2y1nZl0SPxWF4UOBm701_SsTdPsTbN
+}
+
+GCPEntityColoring(cloud_apis)
+!define cloud_apis(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_apis, cloud_apis)
+!define cloud_apis(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_apis, cloud_apis)
+!define cloud_apisParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_apis, cloud_apis)
+!define cloud_apisParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_apis, cloud_apis)

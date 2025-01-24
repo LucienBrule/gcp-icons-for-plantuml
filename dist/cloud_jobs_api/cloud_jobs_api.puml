@@ -1,0 +1,16 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $cloud_jobs_api [128x128/16z] {
+xPdPhXmX34In0PV__ukZkvJkC0jDCZX4YizhBwTakrVA8acI94aYhTiLNUFytLO82r1jYNxORv7-zAU_JY_FUB_-n_xq0mVd3t3tYHzmHvI_6V31Qpy-UDCl
+McDGMTBNE9QQ78Yc_ndfJt_wqv_-zAS__UbNLVb0LV-wNwKCY6Ym_nevvYUYf_n4Zlc97lON2VVJqxePp7fJ6JV4-wMP0u2xumEhjn6Y_TeTFW2WtIG8zGlj
+8q0hH0Bz5V3dm6G84EBly9S0bRjfaDym2e4nJtixWAxguR3Uky419s00YV3t6v4rfQgQmmbReFlz3J_sEcnH-zd48TpkLmnj7gcWtxZxRh-1Yleq7Uv6OBE_
+WlhdkmZkEg1x_HWcR180dNEvqr-7yavtOG6s-jbzNDyUE1-wqI-Op1vHNWBx_PN-XTip6o0R_HsShHbrRC16FnwklKcNq7RxPHZjrnYhjDllA-rdcs1x_UDa
+N_iTs_rOyxV3_XxbN-i_Rm0MDdyozxDCXw__llt-Pxvo_sl3_KytBe3sjVk_Vw7bWwe1Z_ywqUiOKdwVgydYkQ-Qj9-EovCtPjG0lro-_oaJMecWNxp_wh0z
+iW2eKxsL6Dhi-wSvWPGW3FTV-gHo4yiVrW42D7gqWHk20oXkDGwpRWQ73o2k0_L11H-83m2V41z03A-reG580vxRmIt10QGxdjcbI7008Wq0RjoEzg4B3J2Y
+pV0XWOE_me83F2Bw0Iq70f1_De1bW0nGJWMW_sW0Q3aP0FM8dG6WvHW2K7y6gLB-W2H9akGN
+}
+
+GCPEntityColoring(cloud_jobs_api)
+!define cloud_jobs_api(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_jobs_api, cloud_jobs_api)
+!define cloud_jobs_api(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_jobs_api, cloud_jobs_api)
+!define cloud_jobs_apiParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_jobs_api, cloud_jobs_api)
+!define cloud_jobs_apiParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_jobs_api, cloud_jobs_api)

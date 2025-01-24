@@ -1,0 +1,17 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $cloud_routes [128x128/16z] {
+xTW74kCm28LXG09y_mjlPriyC0zdXYtwB_1Y-qiJ_KkTJgVJwQHCevd9yBwjuNtRm_kcFBjlohFxSmejMiFxjeVtJUVsvnJQBydGFg9GRc9gnlObGA7uzPAx
+K1chcjKfj1yvKrMz7Wex-qP5sw8omVSlLqfR1hJm_SjtxWngu_kNIsRFi1JTpmsgeIdZ-vROmvDi7pAuhDLAzX63OhqKs8yaiGUsATa733Rd5xNsBRM7wylt
+SuDzUye4x2S6fVleyVt8vQczJS1-Qd3tvENxFrKPv9QyFFufySAWt0tmZoILLoTU65p5xSqVVTtomk3E5zhpaNfXKDCFzKfUdJbWK3dP5-h4fS5i0f3NDvZS
+OFJHzmtUR-3pVODAh-7o-WQPNaFbzGtUZw3o-WONtGK--hv1eTlGUTnW7YeFDvZ7X8SRxFVSuAA7FJTODsGmcZL8_wt1Or1c3R9lUal2FOF-7fnisZFebni_
+drUptJBer-NEL5UVBKl7eDV7vtNRliGDWtvzQLDPVRQiX1lqvn-HRD663SP-A6pQYnPiqA-dBq0jQXYC_Rx2RH5kCFQZtRTdJOEU0YqJYre6Oxz2KDi332xv
+qV8BV05YHRN1Apc_SvUd-qg9mJhVZwy_CrZd-cX_0QUr4O10iCFZrNe1pjrzfT_ItWjOlNtbvFSWr6xjI_6VvBb2WO_kfVa23DxVoNyIl8tkA_2Vf2rG07jz
+W-u2-nFWVt7_4qXAUuX1_1DO07jTWvlWVQKYTK0UlizKPGx8G_U5ojZyfahUQtmNDMCVEYgA_4NUp7x86zeFUKFx8MzeF-HDxc-QtFT5Ctd86yf3tjo-Aytb
+7lAczXSDnYRqftOwdKwdqqS
+}
+
+GCPEntityColoring(cloud_routes)
+!define cloud_routes(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_routes, cloud_routes)
+!define cloud_routes(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_routes, cloud_routes)
+!define cloud_routesParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_routes, cloud_routes)
+!define cloud_routesParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_routes, cloud_routes)

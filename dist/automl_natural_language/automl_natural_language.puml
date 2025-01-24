@@ -1,0 +1,13 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $automl_natural_language [128x128/16z] {
+xPg5WGGn30CTLlyDFpFb7UTM1ve2Tgn31Upy44888OGGei61xGSU1bSFiFtOhUVwCxW3m4-rVNGim8qFN8TUyGiMQ5SJVs21TCBuhSmveHvsA6mzrr_FBVvW
+wldnyot5JxVztUld5h_VzdSlsJkCqcL7-ZE-OeVwiTcF5YnT5lGZMBfYVW0WVlTArB_bqqIBF_14OiNtFcPpwVB_WKpZzr-OF6tjwrzc0xup2xFq0bZ8trRy
+nP79DQhzasr-VAQu1x2jVdZz8-0FBQ3m3AN2lzVVp2kHU8HOuLDORx5jCG3S2W_tdjoqmhleCN-yHeJy9QIF-y7rZv0-xiTNwe5-xPk-etrJxPkMcuclxrux
+j_XTPv4w25TytGC8mjNp_KRMMuMFGRy4I1sWalts5I6444888SGz
+}
+
+GCPEntityColoring(automl_natural_language)
+!define automl_natural_language(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, automl_natural_language, automl_natural_language)
+!define automl_natural_language(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, automl_natural_language, automl_natural_language)
+!define automl_natural_languageParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, automl_natural_language, automl_natural_language)
+!define automl_natural_languageParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, automl_natural_language, automl_natural_language)

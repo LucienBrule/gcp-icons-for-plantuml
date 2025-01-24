@@ -1,0 +1,16 @@
+'SPDX-License-Identifier: MIT
+sprite $developer_portal [128x128/16z] {
+xDS7hkiW48NXcJCj-z_mgvOiBj4HH13TmgUIdj_T8Dnn7CTn7CTn7CUXCFVumzsWRsvRL3tgykzfcBuhxldua_pWpplfAjiX7rUxLu-4R6LPzI2gqcGRt7Ms
+190z_AupLRvfvTlC7yspsuvDO5LjFCC0_GEmoFhmiItVzaqyeD9GHBC8Y_T1L7-8yvEZGjP1FTkt_1Wfo3f-xzZHmyHb9RzMNaKupTgGlnR09xwvcW-VLBRd
+2cIGGJ3PxZWKC0DKjd3mk4LUmbGOZLVogNmGsd3wvOmNygnlsJ7MpvZEixxd4yxwwTFvr9ayIoZvb0Hq9iyIIZub0HtSzpTZ_OpXFEjhti80Yxpnd_XKFfL_
+dAxTkUYqdpwJJ-MhZ_jD6_sDJ-HJwTx7qtUDzzD7ydUX5yqVTRyBti_quJodNMAGByb7lrr6-O9y6hqgSFvgdXqRo74XJyNR-fzW-t-2u--Jd7_xhpyW-JNN
+NmnVVxVSVp3w6_y4zz_FCFxWOi_uop_p-7F_-FkppJ-uO7r1TY2ixp8hM5_Kic7qo-aoBo2KULxSX8BB7WhWTxjsK0000410h7zh0GJOvzO2ldv8UF_A-sVU
+l_Fz0UylV7_2-nlU7_7-glTdlx_x_u7_N_Z_YV_V-F-H_rybIP8aIGO
+}
+
+GCPEntityColoring(developer_portal)
+!define developer_portal(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, developer_portal, developer_portal)
+!define developer_portal(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, developer_portal, developer_portal)
+!define developer_portalParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, developer_portal, developer_portal)
+!define developer_portalParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, developer_portal, developer_portal)
+

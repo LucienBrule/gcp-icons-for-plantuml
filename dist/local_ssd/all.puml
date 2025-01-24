@@ -1,0 +1,15 @@
+'SPDX-License-Identifier: MIT
+sprite $local_ssd [128x128/16z] {
+xPX7mgOm34CTKgpxNtWA-syCbZNjzrj3dY1EjR-0fccQfccQfha0M16Pfd1JOy_xSNWxvGUc4MpGVe2f8S9F9m2g_01dv_rmUuMZs0-SHDbL-e7B7Z40ZHz8
+l4duCmq1Ed_Sb4FdZuV2IeJE1C0EoYxmym5mlNhyM0hyYiIZiWHEsFa4IsMFoyg3XCCAc4Yoh8YD16w5EDvYnR1s7e5Tac2O3eHiapAuekUvc8xdQNkm8P1n
+dcum9Z3_NDaDtFofZcVhWRUN9_2C_SR5Q_yCVz8HJhVdqK-wn1qVzv74hfyQrzi6YmFW8-EjVbRFjyGWbVJ_Idmybo0nI0kN7QRo-Vbl47P-_fy9EycdxVL9
+73wf1FxqNEnM3LbsFFCVsGaFK-D4sV7il_VuXsbY4374zXYrFKPMz7ykmS9Bh9BnPwyVaUFexTiMj9DXtCakl1OveJtEc6T6xMeJHFzLc-1jPLza0luyjIlz
+gQPSxsTUu_tJGeJ-OuzG-Paz6kydzgYKdn-_l7zQWZA_Mv8Qln7mVkEOdDzuJgwXKtUMJFdDtSgulwHfcgPfcgPfcky
+}
+
+GCPEntityColoring(local_ssd)
+!define local_ssd(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, local_ssd, local_ssd)
+!define local_ssd(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, local_ssd, local_ssd)
+!define local_ssdParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, local_ssd, local_ssd)
+!define local_ssdParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, local_ssd, local_ssd)
+

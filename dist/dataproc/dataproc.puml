@@ -1,0 +1,18 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $dataproc [128x128/16z] {
+xPhdOXmh38NHKO7tV-Axt9Qizu0L4okDxvyBV2h3DAPbkLmkbylb8W3q0I0_GgvV0wcslr0O0PG1gTN_e1A8ha61NtUWLb_V0kWF3K3qNIgh3tc0kW88N--e
+Ai3gK1UK543MAwra3M8jaOe6x1meQC2snf_V0DccY4f_--7-_5_h_Rz___63_RPRVrBWVt6WrEzQT_xbVYprAF27AOJhLMhygk1FGwt8Fm40VKPA_9vx0gZt
+jnf_A4T-h1-jocy9VRLVMftVsVk7Ch-_-Xsjp8zcyIGtxsEurFcRUBZPLDkKJtgtCly3HF-RyONUKUMVw9Dy-bqXTVuc5lrBxc4wGPb_ecO-CIFdWG9_4u2S
+2khy_AKG2ltyhHWA_KrO15BaNpT12lm5JM3-uWYul-umuFwgmu3xwvh0_TLDG5Z2Vne1ExK3ClsZUwwUekTDU7slZZ56PAQ2XzjH1Bo4VOpHxRs9O6eUuIS1
+G2an0zZF8nxwm9m-8Y2jv_XimMuQxQ7_Gfk0z3fR1-30ScJl-WLpjmy4eBeFeA_F_tqy2-qr0Cdgrm4uk1qnNDzWPlhCwGvV7nsyQJOwEVCBI0VopN-9Prhu
+SdsJFXQhELzz21a-DQHcB-dBggh8fYzyl7MdOs846KmcI7PVLe65qpDb7xv9CkTF9M3EVcrZsCOXPER4Fz40d9NBHp_U84Ck0MDh9KO_tY199c3i4jb776yG
+fH8mzwTqFiM_Rev5E3jBzj02_zI7AQErf1y7VezmffTC-yxzpfF7mGPr-lXJjOLTo2POyjIIhv70mlVltENi_BjFG8qs7Wi9KjzEvBVnO0jxwZ8BNMUMIW2y
+yIH-8fBq3HWMioEvsOB33vGaSV-pRQCI4iFMYUBRff7JxyCq0oIJGAfdF863IP2l_dhyoHpO3ZqD0FBf7wZYf7_h7gBm2rkinnOaC16Ghfr40FdO5-e06NcG
+G242JBwh-tAvN2wNo-No5m
+}
+
+GCPEntityColoring(dataproc)
+!define dataproc(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, dataproc, dataproc)
+!define dataproc(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, dataproc, dataproc)
+!define dataprocParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, dataproc, dataproc)
+!define dataprocParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, dataproc, dataproc)

@@ -1,0 +1,18 @@
+@startuml BasicLocalExample
+
+' 1) Include the shared GCPCommon file from dist
+!include ../dist/GCPCommon.puml
+
+' 2) Include a specific icon, e.g. anthos
+'    This directory was created after the build:
+!include ../dist/anthos/anthos.puml
+
+' 3) Simple layout
+LAYOUT_LEFT_RIGHT
+
+actor "User" as user
+anthos(anthosAlias, "Anthos", "Multi-Cluster K8s")
+
+user --> anthosAlias : uses
+
+@enduml

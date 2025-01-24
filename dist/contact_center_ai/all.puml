@@ -1,0 +1,15 @@
+'SPDX-License-Identifier: MIT
+sprite $contact_center_ai [128x128/16z] {
+xTX7WjmW64JXHsYe-r_OOOVZtvA0icTusmuVe2p-lqwdq-caxpMh_hs2eQOXTfVqKvQb7siMVIonfQe_vfdyc4KVgsPVSlkIsrSt-r9cRatNV6dosNRmjuz0
+kkMhJjD7V-yIL0N-sX583ttrANhippyMks9_uGbH2lqAv4K3KEmFwpHz02NqBvsL2nTJu2SOKzHSl_5pTQVFxzhcywUs-8K_bvRxdR_N5ljnRX_SFiNiGpVx
+uFP9PX-QsGUt3swVPlR1uOinWw_Eq6k_BoM63Bx4aCDND_jIDlkIsrSt-r8s-vBRbuv_eUCV__Z7l_aNMKjyLSlp_vZX_SUr_tbfiQyU_6grBnN7-x_upxgs
+-L9mp2ttrHvzFQuhAD0dte16fwANLlZCcxp4dQRfububFFop59UutOJ9DnvbMVgnz8S7oJ9PZr_XzQkJhqpAi_HZIhkMFawAorQzCxN_Q-cnyY-iFZXzSFe5
+fz_1wOFJJpZz1auVd3uu_OBL1wSFJZ_Zz3iuVN3w2QVVmEbZR8xkxtGwdKvV0G
+}
+
+GCPEntityColoring(contact_center_ai)
+!define contact_center_ai(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, contact_center_ai, contact_center_ai)
+!define contact_center_ai(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, contact_center_ai, contact_center_ai)
+!define contact_center_aiParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, contact_center_ai, contact_center_ai)
+!define contact_center_aiParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, contact_center_ai, contact_center_ai)
+

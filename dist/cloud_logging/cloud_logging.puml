@@ -1,0 +1,11 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $cloud_logging [128x128/16z] {
+xTU53G915431yz1_nSHmvzPtNWCJ_J9aJf8qpk-Riljy_XOYFf_Fv_FvV3u_w_tBvm_JkUNIT6uSadMuD5pgskVp-VmjH5_wVFvqLsh_lbm-dy_dzxn_-Fmb
+H5NTttm-dy_dyySGbNV_yFd-JpwVprzVby1_6pz0_8wJ94b7
+}
+
+GCPEntityColoring(cloud_logging)
+!define cloud_logging(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_logging, cloud_logging)
+!define cloud_logging(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_logging, cloud_logging)
+!define cloud_loggingParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_logging, cloud_logging)
+!define cloud_loggingParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_logging, cloud_logging)

@@ -1,0 +1,14 @@
+'SPDX-License-Identifier: MIT
+sprite $early_access_center [128x128/16z] {
+xTXLWl9W64FXj_gT_M_uLzmXKuBat9Sd8zJgzKiffPHIOjM7-V7ZnuyVlw7x8F1GOW023peF0Wyw3m8FEW-AZyvJXW5iKuztyE8diCty_sCwmx9geVF7n4xZ
+FSVgvy-E4mddtlkk7uqpZTUFrMjSQAg56xXIBHg0SG4u1mpW731nSvsNX_hnUh0EuCxCF9XvPhFF0hnfm6ZsmJgWD_iyt4Vuizb7ABxSQFPH6in-C_kyY1y_
+VZFuqmuFpxxymHuFllD_0m2NtrXbyDLNkQ1VVl0CEFaP1byRq7YmhhG1-lEFD43lBGTa04_9xUFsSVku_S7hztKw0s_mktf-pSlpl_3rFNpuyDCkRnrGfcOl
+lnfGncOeQtEzL2cbb59Alm4
+}
+
+GCPEntityColoring(early_access_center)
+!define early_access_center(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, early_access_center, early_access_center)
+!define early_access_center(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, early_access_center, early_access_center)
+!define early_access_centerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, early_access_center, early_access_center)
+!define early_access_centerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, early_access_center, early_access_center)
+

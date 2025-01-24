@@ -1,0 +1,13 @@
+'SPDX-License-Identifier: MIT
+sprite $healthcare_nlp_api [128x128/16z] {
+xTPLOiGm38HXcUV-5oujh-ooHuNvte9_EBO34H4H4Rp7nrPsr5TVVVL5H40Js5TVVVL5HFJzKrzzzNyO4HbuLkC70zsylTyStAdKVe97x3VCqFe5Swm-Bagf
+kE3qtGOPHvtHxpZ8anQZZuCqcpdsz_DLoTTiitM8ss-B-OFKN_sB4DPFdFuw4th-yVqStCU1cx6qvVtlKVtcPk_ehmy0x3vcCokXdx0-LoFqpOswSMAKlc5X
+aFg6EQDPv2FxBJPlH2ciVd29fjggiTLBFqHmVhppUSSTmkap-ZZ8mNsZzdt-N_LzFgXVW_iui33zCEuA1C1YPTj8H4H4H1u1
+}
+
+GCPEntityColoring(healthcare_nlp_api)
+!define healthcare_nlp_api(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, healthcare_nlp_api, healthcare_nlp_api)
+!define healthcare_nlp_api(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, healthcare_nlp_api, healthcare_nlp_api)
+!define healthcare_nlp_apiParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, healthcare_nlp_api, healthcare_nlp_api)
+!define healthcare_nlp_apiParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, healthcare_nlp_api, healthcare_nlp_api)
+

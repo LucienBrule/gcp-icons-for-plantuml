@@ -1,0 +1,14 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $cloud_domains [128x128/16z] {
+xTP9ZcCn30HHIKdv_ZVkUIOG-6ebUsHikNYWgcnp_0rrNTTrNTTrNTTrNQTNxilmbPFPZqoiyQdvodbr9bJl2_rgdWdL-phqLxq_nwUcLBt-adxlysTZap_g
+VPXLhBzF_FaBrrymjF6PeE6kzuE6Nfq9rViwz4Uf_-lNF_IZtfVv-PNxCfj427tFRNFeUsyR9bJZCy53dVEAPtu-UzFGlJuJdsPnvq_oHRvf_Uplv0Flyec8
+X_wwkYsOo6Tl7hfl6o9ayLVocTWqzDusJCZc1wn_v4_7-apaVmrjn_CpBnhUdBqwz8FyOV6L2KKYPF5dyf7WeVUqP4BeMzAX7_M-Q6Zc9n4gzvb0liB_zUiV
+-ghqTpfxa-_LcP35vzlco3_d-RPXGbu_OFsd_ZAipqG-UpyLry-V-PLy-_EBV6LZapyiVf0FCulF10_d1PzzNd_1yC8dNZZykRFtq0yONgw_qsr3X2p-nFMF
+_BXO_wcFCuVFFFlXFkrI8VB7jPz-NM1zXx-oJmJxtjEI2HdyihgkwxgkwxgkwxgkUmi
+}
+
+GCPEntityColoring(cloud_domains)
+!define cloud_domains(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_domains, cloud_domains)
+!define cloud_domains(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_domains, cloud_domains)
+!define cloud_domainsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_domains, cloud_domains)
+!define cloud_domainsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_domains, cloud_domains)

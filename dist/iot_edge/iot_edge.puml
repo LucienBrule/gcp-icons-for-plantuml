@@ -1,0 +1,16 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $iot_edge [128x128/16z] {
+xPe9bjmW34HLsZptlt3snMeF2FEia6Ju1_0tfMu30bh4PhFPR3QRpMO3jGuA-WMhzL01tOUFjpv2tu5vYj9jBleB-AxtXBaNuA3g160-18hyucD8ZHy-YDRu
+RQrVlCgFt0-2b_b9CxqHMQ6Vn8-E_GZf5_XpOlh2T065_fY-WTwZq1_J9yhyfUbpxgzCNwd43swZyRTt0k_w_VRI0DB3JwW4EFWpU4v_-4yEanSuz-Sl83ti
+2CD_1NVyTj-lCVqhcJzVcc0o_LW1dou0xgOVGStuy_HZ1TG7eCIVfj-k0APNXXXBNmBN2l3inCpJwSSAGBs7SJwxeJthKW0SAp11wXS_WMxLKE1FPjtu0i_x
+4TBFVZVyj9y7jdH91IRyzXCFS3vlDjS5EJ8nRIN_N7xK3seXJHxqCqqidFWnFxyqYfGx5PW9WBL3U8xzsWxc5RWy27HXjazqv1NGjmi6cY6E_f80z_oH0nIP
+RnCW2q0R-_XvmXCr2q0xVRmvB8napi-h_Vzm_jnua8pxVVN_R-dtno_wlAS___tbL_3K_8EX-MVn_8ld_4vhrn-kVspzPVe3Mx3-329OKe6IzJSdNR_Y_KSC
+sahtNxcV_KHVZm9_RAbetVwRfSNT_eDDzH-Gj9-g-o-G9hQW_nHOt7yJzQNzHn6hxx-IzAZjF-T-zVB-EwI7LPu_h3z_oS-Vf7N-XCRvKwUJC8NUEtypUfea
+n78_-mcK-lCAE79_QGLSq3qZjeBx1-pZMCNz2otnZzy_eHh_-FqRNkmdNUp7Mlzu1NJn_Jkkk7yu_WAs-FvbyVtJFiBq5xBPR3QRpMQpsNm6
+}
+
+GCPEntityColoring(iot_edge)
+!define iot_edge(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, iot_edge, iot_edge)
+!define iot_edge(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, iot_edge, iot_edge)
+!define iot_edgeParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, iot_edge, iot_edge)
+!define iot_edgeParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, iot_edge, iot_edge)

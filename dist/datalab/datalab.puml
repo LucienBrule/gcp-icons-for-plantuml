@@ -1,0 +1,14 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $datalab [128x128/16z] {
+xTbNUlD028LXa3JCsV-6_mBf8N4RSr9ux_ryWzKb-NPQQwrDO1SUE6wUtv_alWd9X2FlVrDu3a3OMkCUXpl2JfpUCVEk-pMwRyyrnIFbtFdDyXkX3K72Ndtw
+uPvm-7s16yAzzHGYGALKQwtXSvFSH_UxNxA6ZV0gajtlVlUxR-G-d7A-HUGjBUzFriSO1DOZwGQtvNrGndS8j8y-1aSPto6myg9ms_tx9X8CYShnQnz1ZdTd
+NaMYSkllho0Kv7D6xWi2AoyATyXw2cSNBB9W_B8569nUqAyQNrz1ACex9BImFv0eoZiaRFrDrv2FP7j0mVX5ny24KrOVuU8ViF9omEttw8zp8DnZV5nWhhlf
+EYxDE-RuZfo7hkqVvy-AK3b-jj_OYfkkULOUHxRqkl7pBJ3NzN6LdzCNN44NxW2pSdmtu7O9TVdy3zWA-_aPu4Bawuz9O1s3vFiFbVKBiChntK2GK9XFY_Lz
+9UOThc6o3d5yDubvfmNvGgsrrlu2
+}
+
+GCPEntityColoring(datalab)
+!define datalab(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, datalab, datalab)
+!define datalab(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, datalab, datalab)
+!define datalabParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, datalab, datalab)
+!define datalabParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, datalab, datalab)

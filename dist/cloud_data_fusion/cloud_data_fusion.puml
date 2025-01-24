@@ -1,0 +1,12 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $cloud_data_fusion [128x128/16z] {
+xSu7TGH04CFGgthXZpW0KhRDd5Ca0Fw-l2GpCxlsBTydI_jaVI3fa_N9-cHziZvPdwpFsB_FjUKpz6_tHf-nVs_q6VltHf-iJzOdwvFroVfaVR8-hVwut-hh
+w-lhtpxhXVuGqDVNrzVVwTpNrzVNrzVNrzVNlttQw_otJzCV-Vhw-lhw-lhw-knLvRDRZSz-5JuddVkSTUfpsfdFUIS-5UtxrBJhKzMUJrqxFfMj-zIswbFT
+cazzApuTpVlqDEj3tu7ds8V60vTXTFR8yd3vGPcPsJi
+}
+
+GCPEntityColoring(cloud_data_fusion)
+!define cloud_data_fusion(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_data_fusion, cloud_data_fusion)
+!define cloud_data_fusion(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_data_fusion, cloud_data_fusion)
+!define cloud_data_fusionParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_data_fusion, cloud_data_fusion)
+!define cloud_data_fusionParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_data_fusion, cloud_data_fusion)

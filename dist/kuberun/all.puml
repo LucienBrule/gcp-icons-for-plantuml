@@ -1,0 +1,17 @@
+'SPDX-License-Identifier: MIT
+sprite $kuberun [128x128/16z] {
+xPY9hkKW241nG_x_XsSbyL7KQwPIvwMSRFTgmn7t2DyFnt4S1__mMd_1FoGu138lzMTaoh7qcLVw8vvj0BxR7_1i0_2_yiSJ_f820CJC7V0c72SK-atDy3oL
+BXHu3kfJ3jgPWtRcd9t9v_GC686qoBdacVY0lfK1G3HVYbhU_7yefhDGsQLVjo2OJRqCsi-OJS91N5MIgM6l3nqHDQpr47iUWoam6jQiYwh15211LRDo_AdL
+pYChH7y8ZFRTtFUJecprmpKnkTjJvyET-Y3dTgl2oyG36xzQYOMOQyNM1iWpbJw1iDTVrP4t9V7EUDSV4A6V2SrGlSPHEDeY2H6l_YHsdRbUDvi3BhzgQZyq
+qapFb8kV2J07lp0Uo3ZJCzhFf6ctDxBAeo4smYM_OF55QJNuYb-oueUnVx0aqYF-H9Cb6PK_RlLNOZf-1cLP-5T_kFhZQC8NLH4sz7zK2IloP4UyxS_wIgF9
+RD_irnDWp3u_PC5EV_bAkdVxY_tYmSQyy_QP9cSGzEiot0JxYOHvddd__OjKgI2fQbk_migFCfOiJ4rbe1y5ar9TdMpyfChOfckP25iRKAVtZp9ey3u_HPs-
+_bitfwyJOWDs_NbZ-lg0LpvHi5tFo7qcyg-UlygBaCaBq731L-i7m67uQlq8dZx4jzCpE8-VxVIZMsuUDux0W4JBW0q6UeC68DWHpoNFL9eIm1oa8H6UuKZF
+It3nfTbn7CTn7CTn7CTn7ESd
+}
+
+GCPEntityColoring(kuberun)
+!define kuberun(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, kuberun, kuberun)
+!define kuberun(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, kuberun, kuberun)
+!define kuberunParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, kuberun, kuberun)
+!define kuberunParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, kuberun, kuberun)
+

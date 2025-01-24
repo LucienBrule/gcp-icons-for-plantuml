@@ -1,0 +1,15 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $error_reporting [128x128/16z] {
+xDTdJWGn44JXTVRzBqmEKngrz51JnAc_jlWUiF4MxzgrQzUkbHgjnFVAf_5jXgl7UrNFsjVpkcRc5IZ1kO_lSd5C4E3dTSt73xdOWrlDnXV0Wm3Ewmgzs18y
+V-RH03_F0pZFd_WyWFFycSS3_3mFu3n_ulC0pe_d5RavpWi2idozmLKGOE11W8Nd0KwU1_Xv7i1vIm3dBG6SjmHmtXB0ULi0v_q11V9j7DRq20QKe9NmVHqs
+vMYk3dzgu1D-l-_4xnq4C3_FWm3W9tWG0Fm43mA0d-110FB7n_auO2Hyo4k0mOUy1kHzpcj0ta_m4f3tbT-0bu2ytux6qjyiuFTgIJz2z4schXNum-2309CF
+0gm-2B3w8C3gWm2h3mAiFWYm-Y30wfC0fyy2_BvE0wm--0kKzT_yW3VuX3VwZFVvY3VwX7VwWBVwWBVwWBVwWBVwWBVwbFVx-iNcldqxA000028WsB_rHV2x
+-QmKi1xoXynVE_xk_Edpj-yVVF_Y-oVVl_d-qVUlld_s_RlV7_J-elSdlB_X_H7lhtX_nlixvWymVu7v4ypVOFu8yrUOFyFy7UOFCN-9-LFCtsB-sFFNdZ_t
+_Bt_7_Z_XV-V-F-D_n_v_rLAAQK3
+}
+
+GCPEntityColoring(error_reporting)
+!define error_reporting(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, error_reporting, error_reporting)
+!define error_reporting(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, error_reporting, error_reporting)
+!define error_reportingParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, error_reporting, error_reporting)
+!define error_reportingParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, error_reporting, error_reporting)

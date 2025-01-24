@@ -1,0 +1,15 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $cloud_healthcare_api [128x128/16z] {
+xTc7hjim38LXyd0ax__2dReZh6K4YdpKzkh3DDOFKzwM4TksRPkgB0FOBy2Ikdq28LChbBtp5TZv2kpXBri2ws1EV-4AM1TxzIlbZv-_07RY2_JLlCkKqCyJ
+Nw0lUK888hj222oxJ0YKFVxAiyE5Wxtx5V8GXCNO1rzbx7o5A6S-XCpYKzra0I_d7PlTxhSVxZUJ0yRe_tBOrmoixMUwofNK8t-8munUVr8gx1Vq-nbWzQji
+N5-DU4UyymDJhemMEK5WONry4Jmd65u4ZPmgTE0nTo9RcdUTy8H3F04MZhxklaEF-Qrn_HFAw4TNFp1s_vF1qTTN71s__uvVUwqiNQ_VTFkkhxvXFVKXxAYY
+PVHZ_NYXRpEUR0Vw1MN_9xF1zP__WclqVZt_sVrwzmExNw__OQXA7x_fv07quR4VsSIqKM2WF_M5mmVwKz_6OxIV8LF4Q3z3fl3HVePCWHZifyaSyB5-wjIt
+x4hV-vzv43y5r-jlVMTZz-j9WpLzpSR9_Nhd2dQ_3k3_xQjZPTyoJ_guUFqHUThtIuz_zSpJFhAnYqRVwTTywZMZx_VRT9guPFJFmnMZVrvSClhdANVqbSbK
+4UHyPSDv_Wg4Ii4y0WECVyxnIzqEXyg5zBs8-lsH1C7kL_wvVszCU3JU-oWNUzuYeFv_vEey_x7jVhFxRBk_-_NwosUDh5BoV323h0J8lsZRjctx3W
+}
+
+GCPEntityColoring(cloud_healthcare_api)
+!define cloud_healthcare_api(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_healthcare_api, cloud_healthcare_api)
+!define cloud_healthcare_api(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_healthcare_api, cloud_healthcare_api)
+!define cloud_healthcare_apiParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_healthcare_api, cloud_healthcare_api)
+!define cloud_healthcare_apiParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_healthcare_api, cloud_healthcare_api)

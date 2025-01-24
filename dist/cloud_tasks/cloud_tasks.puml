@@ -1,0 +1,11 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $cloud_tasks [128x128/16z] {
+xSsr0SH03031VtF_5JioCzDiU2TfVXzDaYH9alvL_Ozzhqls9qhAehx7f7QqUbom_ssVp-Vp-Nm-dy_dy_byFf-VbSLzZrdr65IF2_O_uFFvV3wVp-Vp-Nm-
+dy_dyqzFaYH9afG3
+}
+
+GCPEntityColoring(cloud_tasks)
+!define cloud_tasks(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_tasks, cloud_tasks)
+!define cloud_tasks(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_tasks, cloud_tasks)
+!define cloud_tasksParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_tasks, cloud_tasks)
+!define cloud_tasksParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_tasks, cloud_tasks)

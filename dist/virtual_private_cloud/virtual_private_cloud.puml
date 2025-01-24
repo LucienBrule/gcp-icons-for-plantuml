@@ -1,0 +1,11 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $virtual_private_cloud [128x128/16z] {
+xTe34iH05431ZEV-5rxRPhzoyBiKPv0aXPtYTk5Xa-BXdT9skMvNBlVJJdMdh_BvV3w_zbNrJ6TzFf_Fvxl-yFby_X1NvMbbhgxAb_jnPrJT6JMSgQyxQrqy
+gksi-K2Vp-VppvwgRncLN-dp-Nm-dy_dy_byFf_F__ptptm-dy_t_mEVp-UtLVbCL_YkFtm-d__A94bZ
+}
+
+GCPEntityColoring(virtual_private_cloud)
+!define virtual_private_cloud(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, virtual_private_cloud, virtual_private_cloud)
+!define virtual_private_cloud(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, virtual_private_cloud, virtual_private_cloud)
+!define virtual_private_cloudParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, virtual_private_cloud, virtual_private_cloud)
+!define virtual_private_cloudParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, virtual_private_cloud, virtual_private_cloud)

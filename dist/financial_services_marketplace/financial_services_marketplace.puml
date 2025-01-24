@@ -1,0 +1,15 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $financial_services_marketplace [128x128/16z] {
+xPc7ZYin24K735p-_ulVA3X8ralFX6qSbTtK0xWxsvCqJTCqnA9gWEcWUZkBdO1ZHxauTx69dm2C2lN34dW0Z3Azf5tLi1CHIB5UUFP3ZGYWbSKNsX9Ib5M0
+GZ-sXH4150m3FUbJj0G0-xYU8_jyaA78AO1Hahvcqa0g3L60WjQdzBkdd-4xND3vTRlaZm98GVd7PVyeQ80i_mK_-muAcd-xx2UuEwZUVmQ-q_wlwd_aEoWO
+Vtnz_BaLhFrosQzmXrOiFnVzLB80vVAt-dC1hDdzqFz-ngTtG4DfZi1SWMWdgpzdFu9yncusiW0QseGiqnVW-5x0cdMF_vINbv7RBuh_nk7s77cQs-zyUHv1
+Q8x2ZE18U_PyKWjK1WzHE3pr0nu0niSTzHAE0180qsSKeo216nzcJtWz06QsigK-WIiVPKzuUINaKCeLO06kTC0nTs54R4EZ_WwJS8XV093NrvhBP569UJ3b
+qW2_2FJbfUPk10cRNmNZiFGJbKXyDWM06tvx_Q1v4rMTLq1-4xpYjuTOrVL-zx_jnoEyv1Tz17i4tNuOJJCUGHxZ1ux_ddyV0e_eN_Ah7jR-jlq0cgP-_z7p
+xy_tjnzdqZXvswzvmJUHzN9YFM0hFE0jC1pjFwluab_W0VqKV_lRt_xsjx_zxMz_-zlV_lQtl_tjRx_fnEpY4w631V29JL1q_uN04mJVyFwj_VtxLzCqJVCF
+}
+
+GCPEntityColoring(financial_services_marketplace)
+!define financial_services_marketplace(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, financial_services_marketplace, financial_services_marketplace)
+!define financial_services_marketplace(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, financial_services_marketplace, financial_services_marketplace)
+!define financial_services_marketplaceParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, financial_services_marketplace, financial_services_marketplace)
+!define financial_services_marketplaceParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, financial_services_marketplace, financial_services_marketplace)

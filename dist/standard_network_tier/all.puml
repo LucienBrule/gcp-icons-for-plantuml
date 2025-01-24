@@ -1,0 +1,15 @@
+'SPDX-License-Identifier: MIT
+sprite $standard_network_tier [128x128/16z] {
+xTS5bWGX30JGu7N_2wzRsaa7rke_Ms4eyh11ZX4H4H4H4H4HPG3oVV0YV6yy8BD4076Td-VMkyg7Qf87LlyYBlEBl0aZvsDTBjvCMX1Ov-dfpxFpPVNRoFo0
+a_rUWHaBOEQ1e3iB9wTTSIyV04fdUt5aAiZ_pB6F7ibbpGNxPvlB09hJzJYn6xofjjJbjGDhFcn5vrK_oP1lMu5wsB1LqipbPxWC02ySrdmq3Y00nUsYVrDa
+j8R30K06Kqdp1x2T4_1cz8kZubtRcnMWJIbVWsBfrH3lD83hdy7-hH6WnExp332M_wP1CnuezfPOSCy_wnfRv5JfpZzfe5MlzLTEynkKldcD3lC46ESW1vzr
+WarP75pRsjZa_y3kMm9fMhvWqz1upJEV-Ttl77k-QcY_fAenNxUqvmlMwlNlrVdsSnLhzzTNvqHgxPlpFVPNp_iAci-tq9vpl1dsVdPzl5XUGmLP71NKA1k8
+Y8Y8Y8Y8Y8Y8w14
+}
+
+GCPEntityColoring(standard_network_tier)
+!define standard_network_tier(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, standard_network_tier, standard_network_tier)
+!define standard_network_tier(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, standard_network_tier, standard_network_tier)
+!define standard_network_tierParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, standard_network_tier, standard_network_tier)
+!define standard_network_tierParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, standard_network_tier, standard_network_tier)
+

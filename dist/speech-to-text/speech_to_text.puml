@@ -1,0 +1,11 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $speech_to_text [128x128/16z] {
+xTQr0O10540n7FQVc0vtbxpkDEqFLYP92kEgM_mug-BlYi_dy_dyk2ewpe-NZmfPtNf__wTyFf_Fv_ChgcxG7vuVzlg3cuF-klTLV3wVp-Vp-Nn-KPKERHP1
+LLHKhNq_79_Fv_FvV3wVFzomFzpzFf_Fv_Fv_9qD-zV7v_FvV3x_RKcIIW
+}
+
+GCPEntityColoring(speech_to_text)
+!define speech_to_text(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, speech_to_text, speech_to_text)
+!define speech_to_text(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, speech_to_text, speech_to_text)
+!define speech_to_textParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, speech_to_text, speech_to_text)
+!define speech_to_textParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, speech_to_text, speech_to_text)

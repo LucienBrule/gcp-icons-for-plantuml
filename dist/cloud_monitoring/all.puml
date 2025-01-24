@@ -1,0 +1,14 @@
+'SPDX-License-Identifier: MIT
+sprite $cloud_monitoring [128x128/16z] {
+xTO7TeGm38JXmVOItV_2gPfjWXGGg-HblbUfFntZtn4H4H4H4P7vGShoz2lxGttrrLTVVVKtxREoZpTrVNoeweDg-hYewEFQu_kuTLI_h-mRxC8TqnzuyqdU
+PhX3-YjhmGqpEy4Tq0TeSNQtDmCklR_oW3LycEn3Xqlk3omU07CmQd1v_VLNx0Hd5nDSPfzhW3fdCty1okjVEXqKymJAwlVh3YZc2PJKl-tWZaMWb3uNcmlv
+29JGZw4MyW5eTxyZXfv2Fe2RzlQNGwlvU03x-lXmiZiX7y2rFNqu2-QrV3o0xVt6_2PmFVP_nZP2Zjbg3y2sAyjJMPxAyfIGIjUB-kghhxxwKt4VYvezo5px
+1sX8iNr0z_VwwgklllhsjL7Sj-9-Ho0Y8Y8Y8YBo0W
+}
+
+GCPEntityColoring(cloud_monitoring)
+!define cloud_monitoring(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_monitoring, cloud_monitoring)
+!define cloud_monitoring(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_monitoring, cloud_monitoring)
+!define cloud_monitoringParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_monitoring, cloud_monitoring)
+!define cloud_monitoringParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_monitoring, cloud_monitoring)
+

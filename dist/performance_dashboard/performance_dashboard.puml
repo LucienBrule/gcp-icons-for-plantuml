@@ -1,0 +1,15 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $performance_dashboard [128x128/16z] {
+xPa7jjmW34LDr_vNd4DwOdr6F4jJtqr-Sz4L3FLmt8OGGWWXX112I9VljCVOvIyUedza0adaeGd8YGVe7vP0Uh1VLEY_0tb-FSfVHQQ_VEtlWVOn9KLl_fEV
+pyJP9sFz-KTz4FbaMVZzCpXP5DhVTqf8uIVByJT7z0QrcQsBFt7LwnMmlbm2z7sHrUdgyDQthswCg6NHAff-8tacS2DKcTVpJiwu7boUT1zzWz_C7lfqPS04
+gK08pmI009u9F3Z_9h-erzkFpyjuZF4G_L7m8DxZbqFD8Lps0yQkjc9WhGkFUq11d8f_UYiZlJYXnLTSG57WucklLTYFJxhgrRvV_Q0UgaoFDgit6jXVVOOw
+9IzRA5oltmhqYp9RepsWx_lb3sXvrXq6r-D-HD_Z_FWc1HhDctZf3wLHua2RlS_G9v-OPSOglcSmJKH6sWlffY_o6o2YzU5YUgmQ8XeJ6F8FnfZ3h9yuwoTz
+EV6Oiossg7B6vr3BzbpUYDbbu-5YItCdfE0FZos_kFiNZIJ8Fu160ldpCdIyFm5hBa__fLrAY_9RZve2_PEQaOFQVBz3_Q76ZFQlOpPW_eF9Mp5nlNrInTO_
+ECqUC_u0iPahh0SiqylniH12226444B8Dm
+}
+
+GCPEntityColoring(performance_dashboard)
+!define performance_dashboard(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, performance_dashboard, performance_dashboard)
+!define performance_dashboard(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, performance_dashboard, performance_dashboard)
+!define performance_dashboardParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, performance_dashboard, performance_dashboard)
+!define performance_dashboardParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, performance_dashboard, performance_dashboard)

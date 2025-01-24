@@ -1,0 +1,13 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $datastore [128x128/16z] {
+xThLWeKm38HXAEbCtl-5Luvr9GrXNUQ_hNnNECl_Iocbb59AAQNMlELKs-cyKykB-ItDx3IBpdbEd2PrPZdRSTzmzRDmyJsRHXpt3JUVd6zyzUdqMS1ntp1y
+9wVyy9qpFl4pVlZEE0m_dNNSxyzz3zUt5tuF4NoQloR-w4VvykNBbozVldpvyWtJXizkKIzyM5Jk6psCJtrYtl0Hb_f6dyJX4nKVn_t11_7ce-0xtk0RavmN
+7nMVR_5xtdQQPNddIPlbhOjIIgdw-VVZth-kaT_S2zUVBQjPFs-rfVKM-gJF0mg-0GM_O-8x4xxW6of-nzHtplYARwZu7Odlx54e-QZu7Rc_H5d5jvAF7-NB
+bozVldpvykNBNp_NjpqVquPl37lXWs6f3nJyx2NjyE5nJ7nKVDl__wIr4n_7cUyi-8EFklg33-B49mg-qVV_Fshmylz7evQtViB_L_ydfPHIIYcbbBe7
+}
+
+GCPEntityColoring(datastore)
+!define datastore(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, datastore, datastore)
+!define datastore(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, datastore, datastore)
+!define datastoreParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, datastore, datastore)
+!define datastoreParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, datastore, datastore)

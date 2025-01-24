@@ -1,0 +1,14 @@
+'SPDX-License-Identifier: MIT
+sprite $data_transfer [128x128/16z] {
+xTPLaYGn40JHB9Bf_XVU7SX1RqoPOYZUVvk7r5Jn_PcPcPcPcQtRjhMshr-IJYs5q9BjxASZD9wow3-HNJpxINjuzfliyAc1wF2faIo_nADLD83jn0tJyq6J
+1w1E623BfttU0BpnfytwDSRX0GCaUPhR3u2P-JLk7J3dLp-8ZioBRf_QCUTfPmav7bzl9D_xbnw_FnYEfxMGVpBwmKk5V1gifrA-Fe3FMdTg7GD67dGZX0Cs
+2is0p5Fe1fnEAmOmlqQI3LZneTSEmCLh1-3gjGCM75ux0ASN3y3nTGEOrm-uyulNAsxvzCN4VgzTVw_swMh_TAhQfvlwB8dFpv3g_MSdJVtyiy_CU3zkxxEo
+H0doWBuip_vIU74vptweyhHeywJDapvFNvzttlc25Xzey-o7Diz-QFFi1_BYVY0llVywSP--ibz_wlgj0pp00pp00pmWlWJoQiYh8Q-6l9eWBs5cPcRs7m
+}
+
+GCPEntityColoring(data_transfer)
+!define data_transfer(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, data_transfer, data_transfer)
+!define data_transfer(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, data_transfer, data_transfer)
+!define data_transferParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, data_transfer, data_transfer)
+!define data_transferParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, data_transfer, data_transfer)
+

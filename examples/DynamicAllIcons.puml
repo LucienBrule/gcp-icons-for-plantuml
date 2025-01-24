@@ -1,0 +1,37 @@
+@startuml DynamicAllIcons
+
+' Include shared macros
+!include ../dist/GCPCommon.puml
+
+' Include all category-wide all.puml files
+!include ../dist/access_context_manager/all.puml
+!include ../dist/administration/all.puml
+!include ../dist/advanced_agent_modeling/all.puml
+!include ../dist/advanced_solutions_lab/all.puml
+!include ../dist/agent_assist/all.puml
+!include ../dist/ai_hub/all.puml
+!include ../dist/ai_platform/all.puml
+!include ../dist/ai_platform_unified/all.puml
+!include ../dist/analytics_hub/all.puml
+!include ../dist/anthos/all.puml
+!include ../dist/anthos_config_management/all.puml
+
+LAYOUT_TOP_DOWN
+title "Dynamic All Icons Showcase"
+
+' Automatically place icons
+rectangle "All GCP Icons Loaded Dynamically" as allIcons {
+    access_context_manager(accessContextAlias, "Access Context Manager", "Policy")
+    administration(adminAlias, "Administration", "Admin Tools")
+    advanced_agent_modeling(agentAlias, "Advanced Agent Modeling", "AI Modeling")
+    advanced_solutions_lab(labAlias, "Advanced Solutions Lab", "Hands-on Lab")
+    agent_assist(agentAssistAlias, "Agent Assist", "Call Center Support")
+    ai_hub(aiHubAlias, "AI Hub", "AI Model Sharing")
+    ai_platform(aiPlatformAlias, "AI Platform", "Model Training")
+    ai_platform_unified(aiUnifiedAlias, "AI Platform Unified", "Unified AI Suite")
+    analytics_hub(analyticsHubAlias, "Analytics Hub", "Data Analytics")
+    anthos(anthosAlias, "Anthos", "Hybrid & Multi-Cloud")
+    anthos_config_management(anthosConfigAlias, "Anthos Config Management", "Governance")
+}
+
+@enduml

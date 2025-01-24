@@ -1,0 +1,15 @@
+'SPDX-License-Identifier: MIT
+sprite $cloud_deployment_manager [128x128/16z] {
+xTe7hjim48HXRgNkV-94mAQFwq2aaRV_1RvvnLOTNxokwxgkwopoui9kwnAve91RVkIIOk0y5-NOpsL1NjRvWdnTv-j7--s7Nr0yx-ku8FsV_VRRRrzjgwzc
+jj5NEzlZ5t-smI--MkPZta9ed-7d365zXZzcXf0-mt_tCuJp6VxqCuJtCINt-3ZAhm6a3ocvpO-Hi_mQGFgGajlyEQ3y6a3wa9BR_3cW_1f0-f0Io5TPVWrW
+VKIbGhwA10C87tp3fKA-SZ20yD4tN2hWuG3QnzzmgO270sWVVyEb0HuE8Fn_UJz--Ec0XmD8l_YYVFxmqm4F1r3-d_mvu8UV3dWqWF31Vxd_zDC13mOeuOF_
+Sf_WLXx82H_pbQ7l5v0JFkOh0ppA2H_pbG4UvOIF-Se0ZtB2ntnbW4VvE_u_F96_wGlDLyxwWymvV_0n_jZhZxt-sEkFZRwgZOt-4EdxZmlyzjjll_tzpr_N
+r7xxkzz_-SZtZsILBvlVFzly_XrVpEEVPWoY3_NRRx_zzjjllttno8U5orKyTNx75ymB_dn2dU3oANTzmwVFzfZlkgxhlW4
+}
+
+GCPEntityColoring(cloud_deployment_manager)
+!define cloud_deployment_manager(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_deployment_manager, cloud_deployment_manager)
+!define cloud_deployment_manager(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_deployment_manager, cloud_deployment_manager)
+!define cloud_deployment_managerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_deployment_manager, cloud_deployment_manager)
+!define cloud_deployment_managerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_deployment_manager, cloud_deployment_manager)
+

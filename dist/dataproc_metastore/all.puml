@@ -1,0 +1,15 @@
+'SPDX-License-Identifier: MIT
+sprite $dataproc_metastore [128x128/16z] {
+xTb7iXin38HXPl3-5tQsVziljb2gtk1RJn5gC4nG4zYLKaeffPH-czFzPZUNk3yrYt5XQZsEgVLmjHwcrkEOggEtPviNW2aymbJz-PEmxcUPmYDCrJ5ChOSf
+FC9K7RFbxPlX2WzRzVmad8iCKtYS1i4mvKUOgkCcxPRKJU4HfkemjHxT51x7L1rNiBnFO0qfGvq4gkDaukejc2-Vt5PYoQk_uFMtfSnSB-61wCr1uk67Bc4T
+plSkVIoyi1D2JGAzQ-l-xpCpAHwrmc4mSYE2QsUsJuZFNdc4dyeaI7FQ6zAhbG65DyXyFnlYWKsritCF5ZMWhe4XJ01ZFcTNXJ2ctFlC6kH2REqqJrvDwv7P
+U_g9IUiXhBliQhaNEF98-Zea4Q1r4W23AY_5RrtRT5jz_68Ii78V8BfMdMBOp63MTBpxmFdvb-gUR_3pgapX4QRg6APlxp25HvYgOvY-lSCL7eazR-s0gpfC
+tzunJE4HfkemjHxT51vXgWxJjtTqKtY4gJfStzvX2ezZgexiNyrvfl3OfkfmjHwcyDXKD-49sqLwmoYbb59AAUKh
+}
+
+GCPEntityColoring(dataproc_metastore)
+!define dataproc_metastore(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, dataproc_metastore, dataproc_metastore)
+!define dataproc_metastore(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, dataproc_metastore, dataproc_metastore)
+!define dataproc_metastoreParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, dataproc_metastore, dataproc_metastore)
+!define dataproc_metastoreParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, dataproc_metastore, dataproc_metastore)
+

@@ -1,0 +1,14 @@
+'SPDX-License-Identifier: MIT
+sprite $tensorflow_enterprise [128x128/16z] {
+xT7LWUKm50JHqlDQxlmJNXuq2wu6kX8u7yLdoJddd7FEEG5JPb1PVtqfCQ0aFVaIuKclVMc4_jfN3Xs_zgKKDdxjnqsGzdqfHj_tbKF6x_jI2XY_yWCcI5Tz
+AKRVzvMxZZ_tfTHn_DhlEK4gywM--hclN3--ofTIvVXoltw2rCANwlHwNtcmhw_WsxV_WpEVfQCFvpxqyk6Q3ptyn7MVkRK_mnqVslfmruTsFfJuf3R-Wq8V
+Shs_GBaFjJxSz1Flgl7XdhzfJQN-H96_rXPHLAclpAfGNqg3VMcqBmNwzktRjs-VDDY7UR0FetqOxVCOxCCosETB-FRjsxTltxvz-qn7FX4jU_v4K9l-Gc1h
+dzZcjtuYl5T-PaXFFgDw01CNSyuvvvnpplq2
+}
+
+GCPEntityColoring(tensorflow_enterprise)
+!define tensorflow_enterprise(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, tensorflow_enterprise, tensorflow_enterprise)
+!define tensorflow_enterprise(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, tensorflow_enterprise, tensorflow_enterprise)
+!define tensorflow_enterpriseParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, tensorflow_enterprise, tensorflow_enterprise)
+!define tensorflow_enterpriseParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, tensorflow_enterprise, tensorflow_enterprise)
+

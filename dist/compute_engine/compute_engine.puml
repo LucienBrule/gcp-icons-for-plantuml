@@ -1,0 +1,12 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $compute_engine [128x128/16z] {
+xTa5RiDG44NHcfxU_ZTSRYTcL_cTATmh_dGYYkbXFo8YwgBDqOEbJL9q8yNWvj8H_vxmyV7nyV6dA0Rx6DnSUg_V3StwqJu-FZv-ftbJkz_lHVZu-FZu1tMR
+_d2Sj_TlrzvthUzQtxM-QttN-gxrNUkxrdS3l-ld3TTzd_Zzeas_rxpfikyptulQ-gxrNUkxrdUjBvNwUgxGrsjbljuhylMPexpxJobo_lL7iz9zBKhsjIhL
+rqQ9lZPByxLJag_TKdmTbE3hi6_tTTANVTv_uEFZuu-BsldJ8hx_uUFZur_BKGpsCRYvT8h1SXyV7nyV7n-_FY8YUW8
+}
+
+GCPEntityColoring(compute_engine)
+!define compute_engine(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, compute_engine, compute_engine)
+!define compute_engine(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, compute_engine, compute_engine)
+!define compute_engineParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, compute_engine, compute_engine)
+!define compute_engineParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, compute_engine, compute_engine)

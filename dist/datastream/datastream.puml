@@ -1,0 +1,15 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $datastream [128x128/16z] {
+xPhdjeGm28I98HXv__UzlN4ueZbNmXQ-lvQPITk45S99aYH9agJnEnl4iF0F443dFuIbrmOGSIdW3YjzTQ637yGisJ7c7LyBLPPCrjUNjYdwYxWa2SWlYTRd
+YVgD8mnqUK4pR_s9CA2kzga6JZLHXOifnZe_Qot6CZ1AmdS90V0j6S1e0n10vLyel0623QpP006qy0O8Dh0yUmFK705FlWgNMze8j6W3qVfyUDSQOa0TwIr6
+sn8F3OnKBcYyDrboT9txrHjhDXsmei0URUz5f94_0xiUa3LdavH3_UE8BB37ODzFCMX0NDACrtz8qyuCWUwdJsSc0VzBVz7wjW6jxvbVi0ReInpxlv86DCFZ
+tpRGZkQ_PZkZZoVrOK1VUa2p0wOMLkpuvXXoCW0cmuL58Z0flYLJDHOqhd-SwD6eGO_mScOWs9JMArmFqYyG0CNgD_gb1ST_3lcCd_4pViOlpnfVoxVdRlqb
+LfuUJ5vLS6nvX4lP3iy999bSJ2LN-Sq-_sgAOtncDFHTEj-k_sccVNzL9iYFrn_TzQkXNm4YymC4wBk47wz_Lt3YLFaN_5ZjviVbuJ-iwa8-0c_r94cI94cI
+Lm
+}
+
+GCPEntityColoring(datastream)
+!define datastream(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, datastream, datastream)
+!define datastream(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, datastream, datastream)
+!define datastreamParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, datastream, datastream)
+!define datastreamParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, datastream, datastream)

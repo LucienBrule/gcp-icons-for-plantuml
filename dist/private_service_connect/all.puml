@@ -1,0 +1,17 @@
+'SPDX-License-Identifier: MIT
+sprite $private_service_connect [128x128/16z] {
+xTbd4fim48RXRpltFt7aC2Xj9S8CWfHz_jhcfInb3FvefPHIIYcbb59AAIHABzRLFS8Ohs3rPjjYStwXRlxLraIuu4aahTxx7n5AJnxsRZiyDGZSwbd_cK5W
+Sy_xVH2M7_QyltmG-c7F-ui7WNjzq5yx2EO3Moh22JSY7_P7_fD-lDWt8IBMUAclVJXVwGi-28s-qBVzQhnVSVtvFW6opxy0_7ZV0FAz7mJuqtq5v3Z_1R0t
+-_f-N-_g4ukPqba_Fisuilt48cv2yxeqtiYqRy8443VI442YCUtpiMG-oujvevE-8UMJFlU-CuQa8H1R_rhQPwHat2SHOGA9DzFDxuyRDkuJKZJkimZt1Ga6
+-hV0xXwTJ_hCmxx7mKMEmHDtmq3_5l3zdJq26FP3yduGeY_XqyUExktRneC-QDY_kl-3O7bVjbb_jF-lpnyqxVCsweTZF7_Nppz8sezMCX5A-ehX-KVNhp_W
+h6zxov7q1UFhp_NhBoZfawfzKfGTVyB5wsz-_-dib_wH52Hz1sRtd-jar3Sa_L3SZ0RzoA-_ZBjPtkUq7xYTf7r5rW_5_IxS_u9mFpdhSyyRLkXzGKgJpL-p
+0sIULwnXtjaXkcN3t_7l_VybM4Nzl1-6TUoq7u65wBpFM8dF-eArUDeFmMeywolMus4_14yWI_iHZ6UG9lrmmcF4Vtt_X2UHVj-FS7xdzQFtrmtF8pNtY336
+MrZdyVULKaeffPHIIYcbV04
+}
+
+GCPEntityColoring(private_service_connect)
+!define private_service_connect(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, private_service_connect, private_service_connect)
+!define private_service_connect(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, private_service_connect, private_service_connect)
+!define private_service_connectParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, private_service_connect, private_service_connect)
+!define private_service_connectParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, private_service_connect, private_service_connect)
+

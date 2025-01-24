@@ -1,0 +1,14 @@
+'SPDX-License-Identifier: MIT
+sprite $release_notes [128x128/16z] {
+xTTLekCm04DH9J5e_nkUULm65Qo2xb_nc0h1IvHIIebkVuApJi8PlNwbTm3q-ZEz0-1taqbVjM1q2pTh65dZdXnhlxi7tJE2QVmFmjwb9-lmNV1z8VEpldN7
+3BsbyRps-7lkqE8gqP-txkeN-9sN-zWpVN40v3L-tRYdwZwlyx5d-ie0shL-nwfPzwbstfjr-UnTxr_oQyHR-Gjt6-StxcyUulD8zMo_dPSyXQxzXEeLORq4
+NsWITC5NqdJTrqVGWA4-q8KB0idNVqm0Xuz7yIUJ3tu7hrziFlQybUvJQVSDkz47IRopln1M7suVp-t7ZwyNFxx__2-hB3vNQNxy-F7ZnzUB7t_W-OyVFtxy
+-FdzUG4_VlpuyUFViFWujzVqPtW7024p3vXvO77fjr-3XiSifPJIVm
+}
+
+GCPEntityColoring(release_notes)
+!define release_notes(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, release_notes, release_notes)
+!define release_notes(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, release_notes, release_notes)
+!define release_notesParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, release_notes, release_notes)
+!define release_notesParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, release_notes, release_notes)
+

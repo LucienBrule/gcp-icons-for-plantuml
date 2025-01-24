@@ -1,0 +1,18 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $network_security [128x128/16z] {
+xPlNWkis34JHeV__ucnrmPOHBECooTLvtE8p7D1q5Jt2oSd9oGapBKGiqfNMmEOHaI-u_7cvUhonlP1R6F_XtZ_PtiaoX-dUY_-5CeVftgk_p66yz-elSnZl
+lVhB7CPxh_wnETJUiH_FeTyxz0_DeVQE_NKE0xq3Vvt3HE_OZ-U0U-_xyHpwlMC_fbU2HTUFIH_md_vSxizrVcCYyML-eJSqr_ZrykUvn4yNblYDBaIkzViA
+lozUVp1zmfaB_4OWmAGV1vZtXu00ytuOODul2W9C-qD0W6a_233k1m76_I30k1y46FU30ED-463UNmEyypo_gOXQVC7j1OyQ8C94r3EVupUcDzXm7xUmvpFy
+IXUq5u3i2Nujl-W5oAF-yb_H373Oh_MT0S2N0WxwcGx1HzTF1yd_eb-VvkUht_h-u_ENxH6_n0KhoJpkoK9fsVFYruVyjG07xx-abFg__WB3KGwWdmDiXGow
+uJPUPv9nW__Qm5R9QsDygq_ahuvw1h9yzylCBm7ItbHiTxzBQc1V7-WzGci0bHTigsI6UqcMGH3uG5i32BqWkNqXi_QIHWqaG83YnwHI0muKeErdwk0mGDTF
+BInWW9O_dLf8u00jlr8B3XY0lUDdwk5x0kpsPr0JZHq16FX1_MW0U0_izZDrSH2Wuy-WDX9x0sW-K3zc_miDItpuzD7z0HBeZHw0zx__xObtNnzhlF-Fpzu-
+t7Z_7or_eW2-18NB7od0IlrW-MCxmBQPvUCpm5N4eh7vksWWCXj7NnyFGElaxyD7_KB7KEZ79-_a11hjZqnWOEyN1FZntf_S0hF3nyTWu-0RsODWxuq7-5dF
+z3pOWH_evm80_NY0MJs-5u2jDnvWyevNqNr-eod4eJzJQ0usu4zd6aL-ysSgJSFsapytiFY9e-1gpn2gpEz3O1-_4k6pULbq1SohF8rf1M8U6IR_lUklJavE
+Jax-0G
+}
+
+GCPEntityColoring(network_security)
+!define network_security(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, network_security, network_security)
+!define network_security(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, network_security, network_security)
+!define network_securityParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, network_security, network_security)
+!define network_securityParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, network_security, network_security)

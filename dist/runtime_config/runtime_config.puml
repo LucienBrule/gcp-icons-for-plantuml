@@ -1,0 +1,11 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $runtime_config [128x128/16z] {
+xTQr0KCn3431ZxRtNpXCKXFcUmjS9UXIagH-I3tR6sDJYvM_zFbyFl_-Af_Fv_DVkF_ReVb3VJwVp--6s5XYyzt-dVsqp-Vp-UETVRxFv_FvV3xV_yFdy_by
+FlyXJyUOQYd-BZwVp-Vp-Np-S4lt-VV7v_Fv_0kJ92q1
+}
+
+GCPEntityColoring(runtime_config)
+!define runtime_config(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, runtime_config, runtime_config)
+!define runtime_config(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, runtime_config, runtime_config)
+!define runtime_configParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, runtime_config, runtime_config)
+!define runtime_configParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, runtime_config, runtime_config)

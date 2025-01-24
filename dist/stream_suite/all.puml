@@ -1,0 +1,15 @@
+'SPDX-License-Identifier: MIT
+sprite $stream_suite [128x128/16z] {
+xPe7jbin24GV21Zsl-7qwCdvdQDeKhYdkY9ZwJ8krs-WQPgcQPgcQPfcsCL4W92BHo21SR4mv1VWf1OeyXk0rXxlKU2k1UHtQc-1e4BCn_iixzNDyt4Witlh
+TGMiL7vsMkw7bxglfVA-g_k2B81RVBCyhWgEIdbzklpQsJDKiATx5rOpb_d7iQTx5y4Itpnw168H7m4dTpzPtNygFWAh-0Wy4TyPTebFl89k4r-WWkmIdo4B
+Q45y6uU-xHAVbCh77l5ruYFdRVCAyaHyoHSVWLLy1CY9hnDV9xvwzwt2s2O-Hu7KNU8RrQ7_L7o4eRyXyHNganCV1ZVn-Rx4LsAR-2mgwDyilh__e-v_c_Ww
+yNNY4nrcGqc9JntVI8hun7DM9dHVWQUJa5EU83vvhhmIXWsdlkO4Immbp5f4v4HF3pkuBFA57TOz_64vYCDP0_8u_N1ssixNgvpw6R_sutJ_zV4uuFJn3_cs
+dEC2k8-_wV0f83klNm24x2N8fy09UNS1GaYSJy8FRG5sdMMDVvG_TcaayBquwLzTQW40ONBz-JHDqpHDqpHDyna
+}
+
+GCPEntityColoring(stream_suite)
+!define stream_suite(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, stream_suite, stream_suite)
+!define stream_suite(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, stream_suite, stream_suite)
+!define stream_suiteParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, stream_suite, stream_suite)
+!define stream_suiteParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, stream_suite, stream_suite)
+

@@ -1,0 +1,14 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $advanced_agent_modeling [128x128/16z] {
+xTe5SiD040NH1MiixVtl6_hb60J6sGvC6mkVcDFlAugYAAfVKNgfXy2HLndK5Q1ZGv3hOXaSUKNg2fhqnmeuyehKbVFcxde577b5wehK5SWhKbUahfmtTzVB
+uCWhKbSUl9aD-ZUOsUi7e3xZFpy06VRhotprD_pmxL1hRRHvphvTyytLj-l-0FlMnM-AyjkX2V7RiR6_B_xuI_XY9yq1mBVZa7JtHy2ta_OpVoalN-e4-sr_
+XJV_zL_zi-sF6h7ndmy1uwlstOZureuXlhLZdlwWLlZnT006vRNzcVlBMq9_VxuhwkwtBlwnAtxtvNyY_Vdon_XjsazDFhlz8Nm3jxzA6x_925zfv1Nkxvny
+TTslNhuQjlrTp-jFix_gIJ_yyCClLM5tO41VWRmYUGNggZvVXk__FXsegmBgYkGLgAiCwkeElR3FFz7FVv5-IQYVVBkgatvEg4y_UahwEQ5-wXMdgqMTz4j2
+_TIvcGxw9Q5-8aBreryIwYSiwQIVqryeYg8eUWS
+}
+
+GCPEntityColoring(advanced_agent_modeling)
+!define advanced_agent_modeling(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, advanced_agent_modeling, advanced_agent_modeling)
+!define advanced_agent_modeling(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, advanced_agent_modeling, advanced_agent_modeling)
+!define advanced_agent_modelingParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, advanced_agent_modeling, advanced_agent_modeling)
+!define advanced_agent_modelingParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, advanced_agent_modeling, advanced_agent_modeling)

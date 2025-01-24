@@ -1,0 +1,13 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $cloud_gpu [128x128/16z] {
+xTf7SiGm44DHKAAcSVyJUziELEmYR0_-Rk8hRIGc_9npphcsf92wzFxzWYcaBhp_rtpxzktRjx_mMO4diQB0pJOMXLi5osgAgy_XUYnDpBEBVU9QYzXdTGr7
+BP5YTP7xsUUq_fYFUwbzl8Lldrf_4_lK-jJwBFEHE_lrxQpVaQhpgVMfzQdrkzYdrgVMfzRlOfzQd-L-wwaZdrVzLqyzVlvqfWJFFmxgStoEmXIVep35Npa8
+StmEYZa-Hs6Apr7pnv_CBM8VMXzQNpB-JqyNwVYFXDQ7rczY7reVMXzQVnFxqFhG-j3wSSylU_verpy9hRzw_NcKVVjhbVygldnw__CeKdi08LWSBlRkVYZu
+dDg7c4UJy3a9d-iQFTU2gPuwzRxFVzgtRz--_L-KSywv3m
+}
+
+GCPEntityColoring(cloud_gpu)
+!define cloud_gpu(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_gpu, cloud_gpu)
+!define cloud_gpu(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_gpu, cloud_gpu)
+!define cloud_gpuParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_gpu, cloud_gpu)
+!define cloud_gpuParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_gpu, cloud_gpu)

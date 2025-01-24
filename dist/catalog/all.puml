@@ -1,0 +1,14 @@
+'SPDX-License-Identifier: MIT
+sprite $catalog [128x128/16z] {
+xT9LOiD048FXoPXsxd_WCgjj5D1kGFzZOkip1P5ppZddt79ar-pRjs-VxpPy-yiHNRDltxvzljlpxMzar-hRjs_VldtxzlbeNzLeFoa_TAs47qTN_pJ7I_jz
+cC9u7oy0V8AdVUe2q4TUuCC5W4_ol8yNG5KAdx-0KlZy1PJ2vo-WX3vVVz--VVjhlDLKFhsRlVsC7xMkVc0xaSzlQdn-CZlvIKnAV5oSMqlO5Fau2BziNVtV
+VjBxwsy3P_633S_VtdvS1la5lwhzUR1VW_qssC_1VboKdsy_jkDzl0_cKyFVz3x-7ZtzZFUsdp-Kn2SMk_gDc5JwjOjVQoAVt5ohcrz9t3tZ7nyn9_LhWp6n
+ZotmvDK-dttxzktRl_kSSyuz0W
+}
+
+GCPEntityColoring(catalog)
+!define catalog(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, catalog, catalog)
+!define catalog(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, catalog, catalog)
+!define catalogParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, catalog, catalog)
+!define catalogParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, catalog, catalog)
+

@@ -1,0 +1,12 @@
+'SPDX-License-Identifier: MIT
+sprite $cloud_external_ip_addresses [128x128/16z] {
+xTMr0SD00C309yF-4wSAanbF2rofC3f9KaoTcejlEpSB7rVsqtvzFfyVw_xzySEzyjUlX_JkVtEQFtwSsKz7ylbyFh_yz7DugEtfbmxz-r-JRhNz_Fd_kt-V
+p-Vp-Nn-s8tVTF7dR6QVp-Vp-VL3A_ZrOsbbl_3vV3wVp-Vp-Nm-dy_dy_dt9kEx-_F4v_Fv_3_DxEUL_R2X94aN
+}
+
+GCPEntityColoring(cloud_external_ip_addresses)
+!define cloud_external_ip_addresses(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_external_ip_addresses, cloud_external_ip_addresses)
+!define cloud_external_ip_addresses(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_external_ip_addresses, cloud_external_ip_addresses)
+!define cloud_external_ip_addressesParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_external_ip_addresses, cloud_external_ip_addresses)
+!define cloud_external_ip_addressesParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_external_ip_addresses, cloud_external_ip_addresses)
+

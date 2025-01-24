@@ -1,0 +1,14 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $agent_assist [128x128/16z] {
+xTfLOYmn34JHCahxt_23W8R7ZcDr1NH_0WEdcV7zYg8eYlH_GjN_rq2ewLcqaRUO-j6BWUZTCWufwyCOa_uofkw_BbQTY3Ro5aktn7cT6vVTrZd6JD2bMBfL
+dTUvSRIHjrYw9SxhtBZ46daB2nNTcCVO5rXDH-tcFxgQrgt-mZPwev_n83d4nrcvrOop3l3ntjrjZBi_ElzmzktLXo-v-ZClElfJqrXy_V52xkAFUNj7SVL5
+dzJnFoT_-lolE_fJHpiyN_ryaFqnRqjW8VdsDWS__F33J-yLlIXPlhvL7htua_tmxRVowCMVweSVVlZ2yldRFsNxGlPLMBvLMFvylyx7TU4hrwyxRikl-tjk
+m3Jo_Hza5c_fdYgMOusybLYwrVKJ9Uhz_qv-_c5VbQLR2-iSSGZWKMBfrkGwn_G5OFe0qmUOVWNL1vW-mFGJcBu0J1zW-W3Jhw3w0DC7c7u6qnU0wGDCFu7f
+Tu3fWvY3JYcAeYZw2m
+}
+
+GCPEntityColoring(agent_assist)
+!define agent_assist(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, agent_assist, agent_assist)
+!define agent_assist(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, agent_assist, agent_assist)
+!define agent_assistParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, agent_assist, agent_assist)
+!define agent_assistParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, agent_assist, agent_assist)

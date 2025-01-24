@@ -1,0 +1,11 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $administration [128x128/16z] {
+xTMr0O0m04L1NFPV65hSDVSwzBhyAFWavJELCttVv_FvV3wVp-Vtx_UTF_byFf_Ftxu_V7xTbk_eRJv_-_d3v_FvvOwUzVbtxC_dV3wVltr_Ddntly_dy_by
+-yVdyvr_V3wVpmza__XyFf_Fv_FvmIUf0G
+}
+
+GCPEntityColoring(administration)
+!define administration(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, administration, administration)
+!define administration(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, administration, administration)
+!define administrationParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, administration, administration)
+!define administrationParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, administration, administration)

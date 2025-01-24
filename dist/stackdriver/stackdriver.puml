@@ -1,0 +1,13 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $stackdriver [128x128/16z] {
+xTO7JWD144JHxndJvludHiagCcpyX7uNgEcIQhNyDAsrrbfhRIvav__lymTtGpw_Ykqkg-CVgkJpg-Ju6d9-oV5Lf-PVihtaI-Vly82nGtn9vuSSNqFEBoa-
+JiddzVP2EZ-SxOLqViZnDKxxwQBU9PqV9srlrWUayyFPNaZdXnnVy_2VBkfJnldB7t3PUtiXdHzoV0aV_fUSysFkdC_2_9BE3sTx8PqVSdnnX5f0ZgyfvvSK
+7tB-_6lzirFyuq9xxsykp9_SNPV4kmMmumDkony0QW4Jzm5yuNPiFg0MGEo-mRaWNYg0C3O8QW4Jzm64iK50BO0mDWXk0OInGL0BcBWF88mD0ce1n44Rl7ws
+GN0B88mDWbh0n7q0OMmGK0iWZ0s2Mm1XR13K0YRk0mXZWu1Q09kDrHiSYRSAG7f0-Fd-0uGD_bIjjTPQQ-q9
+}
+
+GCPEntityColoring(stackdriver)
+!define stackdriver(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, stackdriver, stackdriver)
+!define stackdriver(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, stackdriver, stackdriver)
+!define stackdriverParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, stackdriver, stackdriver)
+!define stackdriverParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, stackdriver, stackdriver)

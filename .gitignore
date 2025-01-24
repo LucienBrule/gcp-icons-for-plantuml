@@ -1,11 +1,11 @@
 .DS_Store
-
+.idea/
+.venv/
 .vscode/settings.json
 .vscode/launch.json
 __pycache__/
 *.py[cod]
-.python-version
-# source/
+source/official/*
 !source/*.puml
 !source/.gitignore
 !source/official/.gitignore

@@ -1,0 +1,14 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $asset_inventory [128x128/16z] {
+xSu7QW0n50DHWxC_ll-5qticHI14awXRx3VhztLTrtLTrtLTj-7Td1o_1_XpOloU0JuKi9_y0JuIi5_y0JuGiD_y3m7dVH5-JoY0-HS_7x0_-lc0_T7F1spm
+0m70hqa5CBzY0Sp70fYF1J0V2s0-5i1yB83vM03piG3cqm7CNnCBO7wa03yl1VXvCS3Fwm5-VYuXmCQ390HuUId0psi1TbuDyFDwW9y_HmhmyrA0dzS2xBmQ
+OERr03El1vXvFS3Cwm4ctXx0FDzsyzqVF48dRiq1EcyDq7bhWCvR0tJU6g3prW2TzmR8l3j0vFq16kyFK7XhWCvR0tJU7A3ozW2HzmSeV210uFq18kyF47b_
+WCZx0qJU7y1yB83vM03piG3cOm7CnmAO3mOG7mq0FXi0V3O0-6W0yD40uAC1m4S3W8y601yDGDu_u9y3cFSF-AU09punu1y3NlXCmFgsUU4Z0GkcyVbrNTTr
+NTTrNNSF
+}
+
+GCPEntityColoring(asset_inventory)
+!define asset_inventory(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, asset_inventory, asset_inventory)
+!define asset_inventory(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, asset_inventory, asset_inventory)
+!define asset_inventoryParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, asset_inventory, asset_inventory)
+!define asset_inventoryParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, asset_inventory, asset_inventory)

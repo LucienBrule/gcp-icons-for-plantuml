@@ -1,0 +1,11 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $cloud_natural_language_api [128x128/16z] {
+xTg5ZOL008R1X__zLtmnBeOxORu2Td3Tt_UI94cIf6AqIyOhsj5MeAl7kz_dy_dy_FSxeofztTZoNk9tKzl_TB-Rs_-d-jsIu-yqlrjw_9_Zj-sjVh7Dv_Eh
+BHNlz_byFh_SKl6Wwp-Vx_pdy_byzty-t_dFv_FvxlzyVfMh_8puoHL-CkudP_l9j9-SwIVpVdAMdpxp7sxo-Nm-_yj9agG_
+}
+
+GCPEntityColoring(cloud_natural_language_api)
+!define cloud_natural_language_api(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_natural_language_api, cloud_natural_language_api)
+!define cloud_natural_language_api(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_natural_language_api, cloud_natural_language_api)
+!define cloud_natural_language_apiParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_natural_language_api, cloud_natural_language_api)
+!define cloud_natural_language_apiParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_natural_language_api, cloud_natural_language_api)

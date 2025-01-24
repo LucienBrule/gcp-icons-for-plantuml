@@ -1,0 +1,16 @@
+'SPDX-License-Identifier: MIT
+sprite $batch [128x128/16z] {
+xPS7YaL120JtPUz_uSr9A92LscoHfR7b_vbstarc68PX68PX68PX6DQ6KEGCA4Qmq6SFy8fxKAYp1dZ50oSARU89gkqeT8aNgBQYqBVFVK-eWT2pptrtg87G
+iyzzLwYHqBUFYueerEmp9nLHQDW3UrJ0rUnnnIjBV9pcAk1BjkEl3cXdSC-DJkZ-QGFaIxQaVuDl7QESlPq3vdC7e8j4VPVF6O22vCBGhz1spe7sDO8zd4Uq
+PmJxLDnohSQov_DOSvhs5zGgTiy-eEQjWlgIWT0x0lKb0w4tG7t9GEWDK5yo41AC5lfiNoE6VWyjzBj8eTz72lq-JkZtkPpGxtEm_m9PNRott3zWgu8NXA9z
+_KcVX5qQcuyYgSlIsFnmSgB9rWX0FfWjpjRRPxCYy7BV_P_z00Xv1JQUd-OJeFFb9mxGUe0VsW3i9Am2nTvV1MplVmHuzlugg4FVNmKS-j802pLjl7UC75he
+7-3GrmQWGtMKPqyRW3flfRqs0FLUBFjw5M1tpvvndjfz5keQ00e5DkeALYHKEAWhM87GuQ8iZmGBBLAMKv657fJbIxMVJ2ZBrsHFGdy0EfY5q1o03kPI2CK1
+gBOMGe-Wse72dyKm3CCm3CCm3CCmt04
+}
+
+GCPEntityColoring(batch)
+!define batch(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, batch, batch)
+!define batch(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, batch, batch)
+!define batchParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, batch, batch)
+!define batchParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, batch, batch)
+

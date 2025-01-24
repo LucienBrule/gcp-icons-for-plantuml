@@ -1,0 +1,15 @@
+'SPDX-License-Identifier: MIT
+sprite $network_topology [128x128/16z] {
+xPe5bYmn24M9LCB-D_nrfbm8xqmpykxnReeRAoKI3I6444888VgVBeDKdOy4Q3gJn8xkA43dPxBF3en2rGqEEpO6kaEUoNgD33AD9-XwXumnFedw0EXNKAyA
+--s3Nqv__K1_kfmfImhSVnENNHS2hxxT_YjsVFxoaCljJwRO9kV00z1jeOO8EsPzkqaE-AMCNdeCCJ96xRsO1mfe8q8ofORyfkbl0Nv3Pi2lFKiggW5-op7q
+qqy__J8JufTOF_qvUFtDHFYBhWZmwuQN-tN7Y_qvsAzxfc2__cW__INw_8_rjvzr_Tqt8FR-soJ0FtyiBp_p-Ol--tN7zp_wwQU_H7_P_S9-1O8WHlosN9FB
+N-0YaSvKXr_HuLUq30pgDpI7FyifsUGlkiLH0jJaAFpkeh0oSBdjbm1-RsNVch0Y_dPL1kxc5TKHlvn-tvci-N0_lhEbO7u1zIAWNq2zm1lIgbvI7HsGSGoT
+Dw_091uCTbi3iZZfm2mcVKSGKdzp9zy0TX52226444B8Rm
+}
+
+GCPEntityColoring(network_topology)
+!define network_topology(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, network_topology, network_topology)
+!define network_topology(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, network_topology, network_topology)
+!define network_topologyParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, network_topology, network_topology)
+!define network_topologyParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, network_topology, network_topology)
+

@@ -1,0 +1,15 @@
+'SPDX-License-Identifier: MIT
+sprite $cloud_router [128x128/16z] {
+xDQtSGGm54D1UMt_5IkN9_5dS8QlWKM8XsliT3gTJfHvoZnbdZ9FcQVCK-OfyvHvoZnbdZ9FcQVCK-OfyvHvoZnbdZ9FcQVCK-OfyvHvKlDvSSvBndtrJVas
+VJE-RT-4B_3bliYN-a9VvejzYK_ks_UD-7PzGxuztvXlnpVeM_UD-bPzmxurtxXlnRVXF_kZkRkovylut9VnkI_ZSr_6vxwCptqPd_ioFlTbVExB-DptqPvP
+dI40Wq6ibdxiFp6l7Ev1cWLIb_jFwD_bn_NZZZ_k-iFTVxZd3-xvYtl_uDw_kEyFNll-gYFXj7uSevrkm627EUSzxs5U-Vw-xCVzV-3-lt3_dxZ_Rzpy0JT_
+mSsVSFCttFmHDt_5pPznytVS-WDk_QMUlk-F-kT8vFfRTmk0tIs0Zl9i17qYw1D1dmZwHD0dWZuHz8cWJmHzSbvlDe3o7WHz8kWJGPy8-aJG9u8-2Rr1w0r2
+Rn1wWz0RR6RvHXQBnMAn1G
+}
+
+GCPEntityColoring(cloud_router)
+!define cloud_router(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_router, cloud_router)
+!define cloud_router(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_router, cloud_router)
+!define cloud_routerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_router, cloud_router)
+!define cloud_routerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_router, cloud_router)
+

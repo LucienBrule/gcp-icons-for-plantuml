@@ -1,0 +1,14 @@
+'SPDX-License-Identifier: MIT
+sprite $transfer [128x128/16z] {
+xTd70LmX4C1GVSo2-g_OP-TiEOmQU9n8mr_TD4tJDAtQznNxMllUsDVQrzgtzhNsNR6ljUyhzhNslVn0pvjlQ_kH-DxyMSMyyXrTJLVWpst5ljQ-hzZNslV6
+ljQ-rlvgVIXzI7rI7qh_aFfG-hizWFcEdkRi__bNeFJ-BQG-gG-bVqXzAFrDwaFfBr8VIXzIdzIdR1r-UTCqsUgM_cFgQ-blKrzB_vZwMlhNrDVIrz9_J7qj
+_PrEeMW_WKuzX2hzsqq_0EhvJ-a_fhwM_ZRrjVKviG-rpuvzg7rMx4Cm_QxFl_UxiGyn3oVb-_ili6CVQfyL-r3xKFlSs8VQvyG-r3uxzg7sMJ_cJzCqJTFq
+5W
+}
+
+GCPEntityColoring(transfer)
+!define transfer(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, transfer, transfer)
+!define transfer(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, transfer, transfer)
+!define transferParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, transfer, transfer)
+!define transferParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, transfer, transfer)
+

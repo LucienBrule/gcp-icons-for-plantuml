@@ -1,0 +1,11 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $cloud_storage [128x128/16z] {
+xTY55SCm40JHas4l_JSSPgPx6vZVm3oo9MrO000009ss-WhZPElF-sdkozcdBsUVVfhxgkx7HhFqOu-X7mTE-whjXxj_vDL-tF1eFyrzEVlqzMY_tL3PVvo_
+twx-VrAIy_-hETFvKz_VsjKj_QsJlfnz-cdkozcdhsjz-ctOQXNwOIi00Ep_xF_qsT_P_zd_sV_P_zd_wRF_i_-p_xF_lmTzzd_wxF_i_m000C0C
+}
+
+GCPEntityColoring(cloud_storage)
+!define cloud_storage(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_storage, cloud_storage)
+!define cloud_storage(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_storage, cloud_storage)
+!define cloud_storageParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_storage, cloud_storage)
+!define cloud_storageParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_storage, cloud_storage)

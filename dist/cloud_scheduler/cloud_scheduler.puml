@@ -1,0 +1,20 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $cloud_scheduler [128x128/16z] {
+xPfPkkKe38EnZ37xtt3FNNovHpaNEQavUWxyWfZPxSVJeqUF7ZqokCE-MtdutmBAvN6fFFm_eOfdvNMyUus_okCQtgs2Drz27S_v1k_nbyQ8lzGTnlXBAE4v
+7nw3A3v2d1lGyTwMqCSRTPnMWZhU27p7WZC3TJnYR2d08i0TPVoYAmwu0Hs_wB83Ra37zo6hrmmOmID6GG5QdpxmVHJboy1s1xpWBKuR6FqVnVaNzc90uP_Z
+uyE4Q-XnRa3XuuW7dM6CHmwpWAC1xCSVnuSJEBF03TZkhe7Zu_FuUMS0s5stGV7UDkJK08HzXFtxdOsZ-avn5hAsQbsIgn4MK2UZG5QGEehUeu3lP3Olk-yo
+7gnytJza_vjnJpQVp42exWcUAlyHdHXwlGTjksZEVvIPtTxseLLxFze6_o-zEZ1IZHvyzYb_EV0tzK1gFY_6-KiPTZeHHQdvlIdycSEgBU65ciQVcJWBv2Wq
+ttVvIqS3NU-0JYmh_3py0dqEa1pd90REGb3j_cWL_ioGcyExtslycSxhwsBtjo9_viaGqBg_r_cT3sT8UoUK-JEDrkZIvDDKFky0amAQVQppPqfDecRz2d-2
+ZW0JmW-Nsjzh8UNSgyuVj4s-F_j4q_by19WmfECsFeIOPln-aUzIe-xdzujylyYFKb2DhyiVD_DZtimFXO-H0l_s-Ej9y6ByrVb66byUV_gdJXelpp_r-JVc
+P-BphxB-g85NNt_ejr02ZuU_lluQyIe4NdN_GMD53Rpw_ej_B0TUVV_9VvOIUFh-Mpz_yC3Jpn_w-Mi5djny6qlg-LC8FF7ygP-_VODUFdzl533UVFN-eNx_
+Was-SFyYtJzn0zBzatx_PaS3n85-_rQ_VqIcW5Vk7pTBMN03-lshVl_CPu7Y_NFz_jtu9ApVl-ll3yl1ib1vVxZ-_e8OkJJrznVz_OcdG0dlJp_L-rlpEzyV
+_UTxVqMEkzwVHwA0dtdN-tlEX8wVC-_9F_YdAiXuPY1Se2-yQ63jibFCFtcbhveWu5SnFV-6uuK0nh4WK_Iz_ADZBH3mg-YL_Ak5tpQ0e_VqA_bdo8NVCs37
+pak_bd-7FFv2avQDJBHh-OSDcT8wGkRSSlubos8Ikd_XI_cdl4hRvY-yd7zBwXJkNwbLFVzuoOHBLV05Ny-_vWPiO_aYU2N_d1iG9g0UP9qJyk-fF4PqQ-tH
+eqUF7ZrwzEXF
+}
+
+GCPEntityColoring(cloud_scheduler)
+!define cloud_scheduler(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_scheduler, cloud_scheduler)
+!define cloud_scheduler(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_scheduler, cloud_scheduler)
+!define cloud_schedulerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_scheduler, cloud_scheduler)
+!define cloud_schedulerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_scheduler, cloud_scheduler)

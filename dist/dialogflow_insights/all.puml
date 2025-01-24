@@ -1,0 +1,15 @@
+'SPDX-License-Identifier: MIT
+sprite $dialogflow_insights [128x128/16z] {
+xTa5RYD144RXve7x7tYtU-6NHqcCNSzGJrYYB-L1PSBhvNcUv-LUGlLUX7HbhiTy25fU9K17VeAKlurQNa6wYf2kA5v1kagGhcRVxiv7BQyWNSN9jxlpKSih
+I5S9qfN1DNSci-LhpLzcitthrQoKnVgrZHvpAxXn_TuZVe04-_bslr1-rlgCdyK3lleGt_rwEE7MtndwfOt4Z-py9b_ysgpz8dy4xxzGVh4-_bdyg7M-6FYg
+VDJzn_t3vTNMzMJSzpBJBuSBREtfXNiVpV3bzRuPDyWlMd_qQNu-zSiyltvr_ZMJyq_YzsF_0nQ__qtptTzxtuvDunn__zDtDroD1lwtushjDusZp_7TTz_z
+olh7iSxx_-yYJ-9sq_t_zWVWOIoduvfd-dQV0YFp-g4WNYM8Lv3EV_zK4LfUKJh__Lz1owi4wOhI5SIh1Edg1jtQJm7rmzJEwwGV0-g7-J6wEgDJVWge7ymw
+emD-3AWVR6DqTT19FmNK3qZIIJy6r0zWqbyxp_CyxnS
+}
+
+GCPEntityColoring(dialogflow_insights)
+!define dialogflow_insights(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, dialogflow_insights, dialogflow_insights)
+!define dialogflow_insights(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, dialogflow_insights, dialogflow_insights)
+!define dialogflow_insightsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, dialogflow_insights, dialogflow_insights)
+!define dialogflow_insightsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, dialogflow_insights, dialogflow_insights)
+

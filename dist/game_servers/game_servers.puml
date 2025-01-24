@@ -1,0 +1,15 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $game_servers [128x128/16z] {
+xTa7ZcCn281XYZ7c_WVUOiLelM9GtfEdXazzHFod5mQ-Zb9AAQKK90p1GW-mO8ZmJbo63Gt9Ec_ODFmY6Xes1E4Q6cQp7v6uBngRHn5SWMP9Np7geoPzCuGB
+DEzJrAUyhnVoPETlln4yJV9-WwWFBUyBFAtRf3t44FU1UqXjwfVx3NBUpxNltwz-zQlFihC7sV5xzJsOa_FzwbU_-aYxzVv3E_p-xt_LhtxrXIBuTXyf8ZVw
+cOvn7xl53lTDuxxQ1_MDeZxPX_KvwlF7zJ7guuVrtzh_7ElBI6Y31nsJmaFJaH3u9aefs7Hef3Ci9Af2i73NoD26S1Kd2t3U5vvjNIHPVpDSqz85BEuzJlU_
+mxzB7Lj0qnnI1t_HWVNpea_qIHtb_HlxzxJV8Uf3J_lNz-znttFu__E1ylxr_Rjr2JHSKwlG_IKh0J_iUfyXGwjFaE7JVKUU_-2-uzPyveFxxYNwrQz-z8zy
+8d3RsF4-gvdfdfDXDcI_GdECZ_TRS9NK9WrYxN2VRC5zQZyPRQ6pVM-PxAtzEeaj_Mn_sABxkVkSsZA-GVyRtVySFB7ynchmDEMpVV-JWCDXqq1muh6JVJzv
+DFW7whprCx-quTVoR1-G6oFig3K25upTxTVdN_Mhtzi1_LR_lEe_JJwvJsRdCJolVTBDToJzB8RFLqeffPHIocy
+}
+
+GCPEntityColoring(game_servers)
+!define game_servers(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, game_servers, game_servers)
+!define game_servers(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, game_servers, game_servers)
+!define game_serversParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, game_servers, game_servers)
+!define game_serversParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, game_servers, game_servers)

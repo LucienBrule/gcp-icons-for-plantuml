@@ -1,0 +1,11 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $cloud_dns [128x128/16z] {
+xTZ50KCn342nG6d_XSlCdo5w2-WKi8CaATOfrUazd-kqgjDOVJwVpm-tkl7vV3wVx_tXy_dya2fsz9Tr2csKDjT2ZORr-Nm-V_Zxdy_dy_ds7tm-dnzlTUnx
+V_XyFd_y-my-dy_dvtSbVeFuSVLtR_t5wk_uV3wVFypzp-SFcYHf1m
+}
+
+GCPEntityColoring(cloud_dns)
+!define cloud_dns(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_dns, cloud_dns)
+!define cloud_dns(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_dns, cloud_dns)
+!define cloud_dnsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_dns, cloud_dns)
+!define cloud_dnsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_dns, cloud_dns)

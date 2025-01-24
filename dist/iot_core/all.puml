@@ -1,0 +1,20 @@
+'SPDX-License-Identifier: MIT
+sprite $iot_core [128x128/16z] {
+xPXPel8W34RD-B7_3V-3lLCgZKqluWldqGg7C2Iqjmii5el5Wlxp7ZMBEO3M07TbcYitjBjy0m1Cfjd56zeU04fJOdUWTG7qvNQo67i4pYyE7i4-Ume4xHcm
+r-aLxJdmwVe8V89-_W0uEARl0K8x3sIutz4AWAQVlF4hG2mYifKsj28SsfSXCJJSQJ3Mij_DqRRchbor6_332BGwFzitbzf9HniBu5ofCUD1qtDwEQ_7dR5d
+eh3JuCeiNlZ_q7CE2Ks6380BIo-XqPWbkBQQYa65mGhXywNQX44rBdPKyEkOyAFV2-se6Zxmj1yKscdfxA717Rq7d5-D07SqLCwWu-Y5GXnPFvsdaAsEjKVe
+oD_HMwBGUFpwgwFdZo2r1ppT6nPtRNzn36St02DROpsoK9wR26StW20xOtIKWWZv53jIVnPX-2TIVuIof9Bui_WhVhxY5sGvXg_E_-drPsIvof3u4mMVhi6K
+9Lb64dys0OxJ2JZ9ia6V-kC0oD5vL2X_e30rYRyxSA1G00L7sPhhVjdyfJlW5BzaT-y9_ihzQxmVMdhv6EylVUKOx-VSJw_rGmilGEFziC8Bu4X_rESmCD1V
+qeUSFTWFIE5Z6mRxqOoAttg1KNu0nhSYh8xMiFa9NJP_Gm_vgdymeQiV89drZdJHEznbUoZCmLt7_sC7gvGzCtVtWcYmNto-V_cNV_cNV_cNNqVuISplADVy
+fA7THSI_KIhurRymlgnN3_1PFrbe9zVr4SxyKJzW0Enxx9pVV0-LnB4R4sQn44Zk5zyGPjOmy2lXI-ZqZDys9VtiXQ-6hq7b_DpFCM8EtHJO1npwIVoo6wXT
+Mm3Q-pJnztwBuw4X_jpLZvU3VrxykRzUTwpYT_fr7R9uuhcs_pNEezNzyUHIv_pBPuOAfOb2kn163TzGfXl9O_vZEyZmdvMNVlo9VfN_hPF_nGCQ9o2sSnbU
+_zXtIFBCXjT_yaXyAcFqiIEZnv49VTwqeeNZqbo7r7gtA0eZwjGuqkJwLODOX2cjCTABaqLLXMvZoFFExvRvOcwKVQvydr_VuTU9yUVhJxFNNsBAqx3_9q2z
+kp7FCCVyPy8avhEcFyt_D46Rrh-vy6Hz-f9jFDSTRs0cjpT1pCnqgxDOB1QBlm
+}
+
+GCPEntityColoring(iot_core)
+!define iot_core(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, iot_core, iot_core)
+!define iot_core(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, iot_core, iot_core)
+!define iot_coreParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, iot_core, iot_core)
+!define iot_coreParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, iot_core, iot_core)
+

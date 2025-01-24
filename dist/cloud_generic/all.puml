@@ -1,0 +1,13 @@
+'SPDX-License-Identifier: MIT
+sprite $cloud_generic [128x128/16z] {
+xTb73iCm34JHSHDz_nDddnvgP4B8_tlYkLTLHqH4vsNDv-FZu-FZu-FZu-FZ7wkMhTNuYLcVl-cXkCvlYNcZhvTTukjDu_tGsuRx-j1WNnyRwkkB1lfBiQ-l
+6kRhkuvYNuDyVLku_KM9DfE_Abtq-xkwwlNLNPSlGta_P2djorJIbwsKBrzxmWyPI_YozhCVnRwy7SM-9lENOb_kMh6_5ljBiQy_t_x7NETVoDoVNt-tN_qc
+QrCzV_WtGF7pvphZy_SPnUyVPoju__8lm7pltyORKUl__cAvwkRz_670_xTY7nyV7nyV7nyV7nyV7xyw8YAw0G
+}
+
+GCPEntityColoring(cloud_generic)
+!define cloud_generic(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_generic, cloud_generic)
+!define cloud_generic(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_generic, cloud_generic)
+!define cloud_genericParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_generic, cloud_generic)
+!define cloud_genericParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_generic, cloud_generic)
+

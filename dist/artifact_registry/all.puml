@@ -1,0 +1,21 @@
+'SPDX-License-Identifier: MIT
+sprite $artifact_registry [128x128/16z] {
+xThdWgmy20RWGo2ySFyNVBeuwmOtqUXyHVvj6PyHqlNRvtZYYIUUUE89Uky5HC_waEEVPGLE-r0-zicYm0mVq7AWRXMOvGELHWiFpFG16IpyR1_A8wcVxVSN
+WGIunWU4lauzS9qFS4UVkzA7bix2p_UZ6UI5lzpFcm43T_bGpWg_3JthPzSjIU6Jvdey8gzvCn00IPqc1AMNpslKFMjHyXMxYhldA_VejNDKPHtqfKUNWJB9
+Y5y7hoXTkUhrjOmtQnvj1hdFX-gfNH_xsXVgryU_0Sc-RpQMnl72cUM-kNkVVlmRkBibllazljlM3ztzwlp_KMphctlurxM_yDtjW-_UvulI5_rFjCztNttp
+Rj-zqixum-RezTtYToE-csJZRu7xWE_7V7TmQ_ufwdwFxuwodN-fkj_dk-jVbk8Fz_fBGroQtVr-D4I6-wr-XFrAWRg_o_TVlhtPn__4V_p7vwzzlTB_Lf3v
+CIPUviTOd_ir-T0ad_uq0clvCIVILJvLo1-XjdmjV_83BLVu92zBBTAj3tvPcDOotPVDGhVWrJVPR0qgJV2J5NyaEkO_QUpmXSxv-OudyYlsou1I-vY9v_Yb
+xf-UKNg-ekMqdnyDIbAVHgAE-oJ8Wtlsn9NE-0KxeSkbAtP2pkLVKfrxjkILphO_afxROatBVzmNpfgWKFm3nOOuQVwb7lMhexJokuZcyjDtarQYb9UHsexx
+xkk1m_QsuFx7TxVFYPBObPxpOvydszloyDVffzIFzJ4_xw_v_N1RuM-cNrth0_SP_ffVNczhww-9uhK-itntbCq2hE4lys3KPwBl_jBiKdzjYEvJ_LXSgdlg
+HwBOVAuVVokU--klu9VuTeN_-8zlx_7Zzx2ZFlVuI7o43slwL7D_dPWO-xvIqpUy-82rrx-wuyVQJYptiLc2hVe7Fxv1-y0X_EIsQk8RDzT_PWFFlnWD7sMR
+g8PlqldyQmbh-P7VrJTkRHAtVdCF77hB1wozQwtXnsqbYGfVcrSY0t8_Vuf66lFVpiDvjiL7oVRnkR__5B7Wjw-97gNwvHjtFBbC_FpmelnCG-bv8QIaBo0a
+VhAxcXe2zFjGdgkpejkFPZ0bel2vhrU-VfGVOkYXrw_clu0L2PfVXFuhizxp_btUlEK-Nv81uXw_KbwiwVvWa-AhVUxghFFz_Y65wbL-fTu-EzSV7qjalYzZ
+OtQTwrSQ7pZd-CU7STOv_l6rXCpmvTJKVTPlz_WdddZYYIT-
+}
+
+GCPEntityColoring(artifact_registry)
+!define artifact_registry(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, artifact_registry, artifact_registry)
+!define artifact_registry(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, artifact_registry, artifact_registry)
+!define artifact_registryParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, artifact_registry, artifact_registry)
+!define artifact_registryParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, artifact_registry, artifact_registry)
+

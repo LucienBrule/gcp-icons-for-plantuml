@@ -1,0 +1,20 @@
+@startuml HelloLocalWorld
+
+' Common GCP macros
+!include ../dist/GCPCommon.puml
+
+' Include multiple icons from different categories
+!include ../dist/ai_platform/ai_platform.puml
+!include ../dist/anthos_config_management/anthos_config_management.puml
+
+LAYOUT_LEFT_RIGHT
+
+actor "Developer" as dev
+
+ai_platform(aiAlias, "AI Platform", "Training & Serving")
+anthos_config_management(cfgAlias, "Anthos Config Management", "Policy as Code", "Enforces governance")
+
+dev --> aiAlias : triggers job
+aiAlias --> cfgAlias : fetches config
+
+@enduml

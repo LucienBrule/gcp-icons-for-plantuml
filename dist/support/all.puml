@@ -1,0 +1,13 @@
+'SPDX-License-Identifier: MIT
+sprite $support [128x128/16z] {
+xTVL0GCn30HH7LdU_WiEC_CckPa6tfSjAHwBgCjPcjKvz5ocPIPzuwjw-DGc1x_hoy7l-ZBmUxu-p-_xWzdNP_bZlvfzlPtlp7vUzjFiQyG-Fdx_Rhyn_p_n
+rNxx__CtYdd_2QFltp_z-xV__jXTWmpwic7NRyDHl_JxU3AYV30zcC77nyV7nyV7Vw1R_NXHVXyV7nyV7nyV7nyV7nyV7pzMVQUFZu-FZu-FZu-FZu-FZuzF
+H3G5
+}
+
+GCPEntityColoring(support)
+!define support(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, support, support)
+!define support(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, support, support)
+!define supportParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, support, support)
+!define supportParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, support, support)
+

@@ -1,0 +1,12 @@
+'SPDX-License-Identifier: MIT
+sprite $cloud_composer [128x128/16z] {
+xTQr5O0004D17FQVc0vtb_jzthK9dfKaAJwqx_byFf_Fv_Fv_6YYAxvfS51yFhyOQjAV6cxn-Nm-dy_dy_dygKxr-Nn-Dj45_cHyFf_Fh-Fp-Np-ePthy_dy
+UAZzFf_Fv_FvV3wVVtsIf18
+}
+
+GCPEntityColoring(cloud_composer)
+!define cloud_composer(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_composer, cloud_composer)
+!define cloud_composer(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_composer, cloud_composer)
+!define cloud_composerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_composer, cloud_composer)
+!define cloud_composerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_composer, cloud_composer)
+

@@ -1,0 +1,14 @@
+'SPDX-License-Identifier: MIT
+sprite $cloud_shell [128x128/16z] {
+xTb7Ojm034DH0bFlV-BiiD9GQH0I6t_hyaoHxZFJMckjDT0OJlMREQmyR_OOuXL3l69ezmhB-C47SBkij1zQlyAl-mHJljw4ONy6pFepOCfNIFaAJFcAAL-1
+ALynvIlm8f-Ouq2Vlx-LWjbNd0-1VdzVmz3idty4eDy_NuFVtn_2d_l-DS3pMQJez_T36D3lxsim-uf8-GefNp7bAoBit_YDvqTo_upUFwDVVp0Vej_VVoQr
+-zn-1B3xs-XsdvjkzxdTdDtVHhVxn79pTf_Bw7uVY-xtkTwStySoUiX7uEylHwCJIf5M7pmzJAFFvJJjFgG7VBrImDVe6Lzwm5-A-_KHyXMF-WFVNVt-__aV
+_Fy_GkjNeSUl41fV8SGhC7Hx2hJgcB_HutNGOoxhyJxeIlybLRs-gb-_VltwUAZdOGz5Xqz1fzMlNx--v-lVUQlVMckjjHy
+}
+
+GCPEntityColoring(cloud_shell)
+!define cloud_shell(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_shell, cloud_shell)
+!define cloud_shell(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_shell, cloud_shell)
+!define cloud_shellParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_shell, cloud_shell)
+!define cloud_shellParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_shell, cloud_shell)
+

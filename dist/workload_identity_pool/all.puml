@@ -1,0 +1,12 @@
+'SPDX-License-Identifier: MIT
+sprite $workload_identity_pool [128x128/16z] {
+xTc5ZGCn5411Bxl_Yk_4OVuopGZ2USkOnWG0040ELQH-wYYIFrKud_V2_LmudzV2_LnxFmLfiw-lhx_yEtz-RR-ZtRx-yaHwGTjz_NH7tttzqsKiNpZzF63x
+KxAlV-AqV_gzeEKllg-lhs_xf-_uHz_vZxxh7_gkV-hhwyVJdsgz_vwE4gD_AiVRqYDxaR4_jHQeTmy0080_
+}
+
+GCPEntityColoring(workload_identity_pool)
+!define workload_identity_pool(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, workload_identity_pool, workload_identity_pool)
+!define workload_identity_pool(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, workload_identity_pool, workload_identity_pool)
+!define workload_identity_poolParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, workload_identity_pool, workload_identity_pool)
+!define workload_identity_poolParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, workload_identity_pool, workload_identity_pool)
+

@@ -1,0 +1,13 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $document_ai [128x128/16z] {
+xTTLWaCn34DH9mre_niUPWsdaGg-VmFEATSlJguiox9iWgBswVXLPXvUdlqE00SDptx3KrjVUUppM5toyI-_7Ek5KV_d7-sLYRFq-mx__xUwgFrXllznxNuZ
+NkNpt53wFDX3udCq9VPZWJzVF_tqqqy__OFPnpOVd-Rt-U6lBh_IxqG-tZRvcgWg_KyFKldCFwNn9n_pr66dp_64tAzcVnx5_sVi5xNVpFS_JigVMfy_Vmn-
+eNCqFfyK1f_saMlrkzcNxLySl3wSViLZqlsJQrv_XDMFSFeH6hyzrHzhhLgklxZpzmsbdtxwwQT_7jy_wTFEAVSvjuzYzk7s8VCvWyzdLBCFs-U_tnzcltdz
+YlkgowTvhO_N73xUflSBtbRaFjvtjZx7hVlfSsj-BF9-lwtvwn-WYtwihu3Krls7M_JNQsgV4_YUiYpBibi
+}
+
+GCPEntityColoring(document_ai)
+!define document_ai(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, document_ai, document_ai)
+!define document_ai(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, document_ai, document_ai)
+!define document_aiParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, document_ai, document_ai)
+!define document_aiParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, document_ai, document_ai)

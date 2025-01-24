@@ -1,0 +1,13 @@
+'SPDX-License-Identifier: MIT
+sprite $cloud_inference_api [128x128/16z] {
+xTBL0SKm3CNGWElzDtxCU5q6wQzuGcdp4H5HlPVx-4bTfe-FZu-FhqFz-_Zu-FZuzLuHVE5slpu-FZu-FZu-VZb_d2VntyFNtou1NyF37mJzd08LQS1PzqKt
+_9NabzIg8etwZpzU-ENkvpJx6hzbK_Z-47uehst9_xutsj33U7MN_4FQqjNWQil-to54zytSTVzQaOwEnG-QVZlauxjRoIdbQcxJ-DVQ-_Zu-FZu-FZuUhh_
+Ncy-FZu-FhxGN7ryV7ny_Cr7H4Hx
+}
+
+GCPEntityColoring(cloud_inference_api)
+!define cloud_inference_api(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_inference_api, cloud_inference_api)
+!define cloud_inference_api(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_inference_api, cloud_inference_api)
+!define cloud_inference_apiParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_inference_api, cloud_inference_api)
+!define cloud_inference_apiParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_inference_api, cloud_inference_api)
+

@@ -1,0 +1,12 @@
+'SPDX-License-Identifier: MIT
+sprite $persistent_disk [128x128/16z] {
+xTO70OCm0031xk9VCGBOP2Vt1Wwo7nKbINedw9hFv_FvV3wVpty55kgNVdy--7m-d_-x4v_Fv_Fv0LNdy_dyS23SvrlWV3v_MedFv_Fv_2G5-tm-dy-V4bIh
+p-Vp-Nm-dyzFdoHf1W
+}
+
+GCPEntityColoring(persistent_disk)
+!define persistent_disk(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, persistent_disk, persistent_disk)
+!define persistent_disk(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, persistent_disk, persistent_disk)
+!define persistent_diskParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, persistent_disk, persistent_disk)
+!define persistent_diskParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, persistent_disk, persistent_disk)
+

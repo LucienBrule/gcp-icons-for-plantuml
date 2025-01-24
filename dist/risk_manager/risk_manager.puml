@@ -1,0 +1,16 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $risk_manager [128x128/16z] {
+xPf7WYqX24NDkFyL_w6l_U_OAYMTl4FJ0KgiXFinkhgwkhgAzOF46x8hI0pOeOvbvxbv57oTbPdls76KdboZlFGvEMN1wygn0JlZf1jumldNtFzlGBzB7gAN
+jhCxMcz0Rwv_qFa6b3VXZHzva8iQFFWAZQMRfiKBaBfc3tPhyUmfDmiOeCHdMhHhRvcWngEVq07p5NXqatlq1hnDeVe9FuuCqEFT8As5yx9idtgZ84_rxGQ0
+yMD-K1WmcULb639uKjsvuOv3pBtw0DJdzSNuMhwONnLuMmEyDP_FEDx9FDFZaYjyjxEAq834bfENx1xBZwU6UJxtxCsLwG240tpgMGjoLFEpBlmBV0Yh2Jzn
+roG-x8OmGm8kyXTs1YGWFHse-SUcs_Cnnx81VtN-p-TBoqqZlbG-FjSPVd5-xSSh-M5fVlSXR85_J9T_-GVtloZu-lolqzAUV_etflWiFzLb2V5bWo_QRTX7
+iXZnrs_WbnyEy-MJDuX2V280N_t-OyyN6pvUW632Tzp_D_Yoy17d1D-D-TM03oF4Xk-gGb_CdrtM3VNN-Uwh-H6-TS4V9XsVnqush_EBspD07kA7YPyWZDBp
+vsjkPiAoVlvi_tuN0puOm7_PWuwlhtzOvIig88817yflE03v4B_DxbaU0W1y_Q_eqhLOyLtfgydIcpTuMU4dPGKQPCKqNr7_b-3BxWe_wSeleVvnNhj5Y4sn
+hMI01qeh-JJX8-a07XMiyAoimkU3PU3Yac5bzYjCOiiI2pohsE1PsGRFyhprZ0JEsqa0RwSHtTw2uBv2uBkb5botrzNLrTNLFm
+}
+
+GCPEntityColoring(risk_manager)
+!define risk_manager(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, risk_manager, risk_manager)
+!define risk_manager(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, risk_manager, risk_manager)
+!define risk_managerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, risk_manager, risk_manager)
+!define risk_managerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, risk_manager, risk_manager)

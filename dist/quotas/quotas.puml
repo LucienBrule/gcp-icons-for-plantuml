@@ -1,0 +1,11 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $quotas [128x128/16z] {
+xTYr0GCm34N17zR-2uSJDM66UvLLNMbRwIH9WovtDjmtoiLDkznPTLVxVFvkhjeShvW_sUVp-Nm-d-_zm-Vp-Nm-dy_dy_byFdzwl3hQbC_dy_byFf_Fv_Fv
+V3wVp__e_HUVFpZJw4pt-UUhY-BpPxcyP_Zv8Z-FztDTZ_PpRO_ryrb9aXO
+}
+
+GCPEntityColoring(quotas)
+!define quotas(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, quotas, quotas)
+!define quotas(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, quotas, quotas)
+!define quotasParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, quotas, quotas)
+!define quotasParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, quotas, quotas)

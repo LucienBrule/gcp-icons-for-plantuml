@@ -1,0 +1,17 @@
+'SPDX-License-Identifier: MIT
+sprite $genomics [128x128/16z] {
+xTi7mfqm30DWIqwST_yBTnkwqk1YVdVaku20BBs1F6ZRjctRDe10NJhr4ye2jIaa6_K0-GNjzb7BZgTUke1cNtH88kWtP8QMY79GjvW3tKxZDMxYvFQd3m3s
+JVvTmtDuCPzP-Kud-NYR_C5OFbBpnw1CyY_Dl_7W_5jFW7uRfkiFCgD7l5JiFoBizf5ABgxZ7QYKT517b9w_a390GVYsrQqtecRTG1tb3c_4dT7uf0k07yaj
+5fzr0TrSqmMAu-IuZMkHGgBdxMSzW50X6ngiMwUaGgvFvjk5nbbw_sCWELzw8D_Z1Ndv3Cn_m_JZPiO291RamAJRzmi8Ry0Psuz3wxsfn0JZyx6iRJkG9EJV
+Xj9EJr_V9L0xnw6rYqo_KJNsZbMtxwf6tw4sV-SNpx_ozLUx0Clttz8BGEtv-r_qZ_-pHu9QESZu_IMkhVU6Z7Wd0UoMy4FoT8_50isrl3rUnVMnO2VcdN7m
+-ELN4NRgQVa-03PUWNn3Nhx7hzYJ-Hnrz-yN4CdFc_z-9nY1-T_IIYR5GHUQkPvNyY3NDOz7Mik4X3VWhdar5n848FDtfF_2jfLMUbJ_ISD1qd5vMqz-ejVr
+xnXFVgFIxGkz_9sE7D1limEZTLSuRhDJ3zIjguKlen1YaazFpyfdB5zVsVd1vwyZDnzlFl-kVI3ZTFtH4h5Y_q7t-7QjxvEIgvaj6p6U_48NsfGN-pRnxxuc
+iMtRjctRUm
+}
+
+GCPEntityColoring(genomics)
+!define genomics(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, genomics, genomics)
+!define genomics(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, genomics, genomics)
+!define genomicsParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, genomics, genomics)
+!define genomicsParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, genomics, genomics)
+

@@ -1,0 +1,14 @@
+'SPDX-License-Identifier: MIT
+sprite $cloud_api_gateway [128x128/16z] {
+xPjLmW8n30Phk_tkV-7VbHI7p4hc2P-waQPh2O8W28AiJnZxf5y0lVwHMRrKMBq4woL03oMWoE3Q1lyhtGkW7GZrJNFEVlryNdqB81kTxo1WzEObpk_P-l8W
+JHt8ldaHy7S_lp7vLa0_xHTG_4uLSBgWcOMGzMkd_WRxqrBySpH0X1eDy94ZOBsOPtG0NS4J6g3Mw9zXVu7zQJl-1FhlJtI5_TF9KdHSciet0SQWCQW__CLX
+QuYql_aI_mM_S2K3lyUmR_tJdNwjtD_2lwhsPt7n-uq_rPAJmNdyRVJyJ_iLVdJzwRR-pXgHrx3_QEp-Qrhb_dVdvm_pTiwV4krFq-t-6Jz_PTZv-Rl2ZpT_
+_l_7Q7vU7cJqu-CF2XD_OKrr-6hVJVoDgDvtojzt4F_M6R-r5QFFo51RzGqmrGFnfqd_cZiGW0p77wUk1GQ0u_7tQ0BAZkvVs3EgLTs_2O8W289N
+}
+
+GCPEntityColoring(cloud_api_gateway)
+!define cloud_api_gateway(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_api_gateway, cloud_api_gateway)
+!define cloud_api_gateway(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_api_gateway, cloud_api_gateway)
+!define cloud_api_gatewayParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_api_gateway, cloud_api_gateway)
+!define cloud_api_gatewayParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_api_gateway, cloud_api_gateway)
+

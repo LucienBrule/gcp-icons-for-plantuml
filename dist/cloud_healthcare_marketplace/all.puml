@@ -1,0 +1,12 @@
+'SPDX-License-Identifier: MIT
+sprite $cloud_healthcare_marketplace [128x128/16z] {
+xThLOOLG54L1dDD_mybpTvmxgm06_zhPWoGfUcg-Ff_FboJ_FpwVBqdHJzLoVJwVd_rMjKwVp-Vp-N5elJwVp-Vp-Vpui9NuV3xV_u_Fv_FvVFxx-7m-luvz
+vKH-v_bRT3f2tjalkvn07SSc7W2r4_iJBw2Qh4jJZp_BYVXp4_7dfjBFbGDyTvBq3m
+}
+
+GCPEntityColoring(cloud_healthcare_marketplace)
+!define cloud_healthcare_marketplace(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_healthcare_marketplace, cloud_healthcare_marketplace)
+!define cloud_healthcare_marketplace(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_healthcare_marketplace, cloud_healthcare_marketplace)
+!define cloud_healthcare_marketplaceParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_healthcare_marketplace, cloud_healthcare_marketplace)
+!define cloud_healthcare_marketplaceParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_healthcare_marketplace, cloud_healthcare_marketplace)
+

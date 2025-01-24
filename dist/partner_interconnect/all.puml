@@ -1,0 +1,12 @@
+'SPDX-License-Identifier: MIT
+sprite $partner_interconnect [128x128/16z] {
+xTd5WOKm0411dFJVyEvtnnrc2iWxnQCh0000AFgA5-uN-aFfwoSLqdicgH9Dwj6FngIlhwyV_zRKZt_hN0zLuhf-gDInduOgwSXzVNrzVVtuHJPsltatYeiN
+vTZzujLoVNrzVUkllhw-ldw5Xe4g-iNmllSdVNrzVV-F-lhwoT0y0000_0C
+}
+
+GCPEntityColoring(partner_interconnect)
+!define partner_interconnect(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, partner_interconnect, partner_interconnect)
+!define partner_interconnect(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, partner_interconnect, partner_interconnect)
+!define partner_interconnectParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, partner_interconnect, partner_interconnect)
+!define partner_interconnectParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, partner_interconnect, partner_interconnect)
+

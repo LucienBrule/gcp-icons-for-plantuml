@@ -1,0 +1,11 @@
+' SPDX-License-Identifier: CC-BY-ND-2.0
+sprite $cloud_interconnect [128x128/16z] {
+xTgr0KCX04117FQVE6tSlzzRu2gSy319agJOlcxRFf_FvvVFgbV-tCMD-dm-dn_pmzhZtlJvV3wVp-Vp-VnqrV_yTDLzVbpM_kUFgvRo-Nm-VtNpFv_Fv_Fv
+V3wV7zB3wkEy__7vV7vSqVylFf_FvqkI99q
+}
+
+GCPEntityColoring(cloud_interconnect)
+!define cloud_interconnect(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_interconnect, cloud_interconnect)
+!define cloud_interconnect(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_interconnect, cloud_interconnect)
+!define cloud_interconnectParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_interconnect, cloud_interconnect)
+!define cloud_interconnectParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_interconnect, cloud_interconnect)

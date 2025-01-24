@@ -1,0 +1,15 @@
+'SPDX-License-Identifier: MIT
+sprite $connectivity_test [128x128/16z] {
+xTe5ZWGn44FHvlZ-5ruGB4RqzKSrKBx0QsV10rbU8frE9xLwaZfzosVsol9r1p2ImWTOaqe_IU43NFcJewRyTmhqcWSuv_nHMZuleHzp_UoZltcskNwzHFan
+rzU2eVlEU8cZl-RwXYluvRdFTUxxGyTzNfxxlivzFdJSzyjpd-lSvqFd-xmyz_dG-JuVEkxpe_TzFdJSv-Lzd-lS1qEd-txv1FYQVWRutj0bm1UF7lYQVWJu
+tj0bm1UF7lZQq6qXlZPq2VAben-1lZ9qQq9zz_UE-ro_8li7A2_wMES-7phiEqCd-rZdFXywxYj39_j05_rL-UoN-iFvXqDzvxDVwc_EPx_KTuwU-ivdly0t
+XuxwZavzvqjEwfzEUUexElJzBpcvpyiptzUvpuSE-dvvxlEXmxusTDptZvxxVEYuxvVdFjUvpuSE-dvvxdCT-lxGSP-NXxwaO_y5RlFqRPw-pTCN-FhQQbzR
+hRWlpGDqDGSOEZMWl1iwTBu_bfA0erUpWw5J0ygxoVBqwNGwdSux
+}
+
+GCPEntityColoring(connectivity_test)
+!define connectivity_test(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, connectivity_test, connectivity_test)
+!define connectivity_test(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, connectivity_test, connectivity_test)
+!define connectivity_testParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, connectivity_test, connectivity_test)
+!define connectivity_testParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, connectivity_test, connectivity_test)
+

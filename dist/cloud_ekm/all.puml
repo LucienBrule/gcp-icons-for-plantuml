@@ -1,0 +1,14 @@
+'SPDX-License-Identifier: MIT
+sprite $cloud_ekm [128x128/16z] {
+xTTLWWCn38DXXHhV_yBBFA0bEGlwN-FwAxU3rJddd8kqVgzltxvz-_Rjs-y5g6E9F_6gPBzWKy_pAtQx9FauBCCVE4dlLvmsnNu1QKhz0PhK1tX2_s2-uLKo
+lnnEjnGVpxMpbIB__AiEpqsrtyXIYJ_PfDZ7KtIWQtq-8VLZYJ_vN57w7NnEwPV5FlwqpnlyrlWymAjyULNwuCiZn-zBVBwznMC3WYxnM5lmyFd-KFeSQF5K
+G-8TsF81lHydHmsgZhv4w-P0qzox6YlnEWWBNeEoO4re2nBKiKU_yWvKP5JZ86GrYQvlC5rV8xWy-_RjsxTlFwdoiWL-RB9ltxu--_x-js_VVkiFBV9dRB9l
+txvzV__R_nKvvvox1W
+}
+
+GCPEntityColoring(cloud_ekm)
+!define cloud_ekm(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, cloud_ekm, cloud_ekm)
+!define cloud_ekm(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, cloud_ekm, cloud_ekm)
+!define cloud_ekmParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, cloud_ekm, cloud_ekm)
+!define cloud_ekmParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, cloud_ekm, cloud_ekm)
+

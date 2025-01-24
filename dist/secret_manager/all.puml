@@ -1,0 +1,13 @@
+'SPDX-License-Identifier: MIT
+sprite $secret_manager [128x128/16z] {
+xTa7KiH034HHEKxV_y9aQ88AooAp_vFTLVF8QUEI8Y8Y8Y8Y8YBbBPz_vYbV5-pZuu_lzkFBmiV7no-i-FY-F8MhJshx-FZIQsGKfg7N_gAcVvkH_VRfN9ly
+TD9j7NzJrlkJ3nboFLzfHvFT3_gviXnDqoVvsM5hH6MQ4xpZsx5Gd9O4R_Z9nTxKzvDtOs6QF-ljNvKg-UJashulJU5FyFga-oTxs_T1CVjwOHgllWSsVHj-
+hZAP7Puw_kANh1nEVhTxwlanv0-jXyeaJvfE-yulh5h3LQTP-edVV_qcZuB0x__u-FZu-4d1xIy_vkFZRr_WVrz4H4H4H4H4HDS
+}
+
+GCPEntityColoring(secret_manager)
+!define secret_manager(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, secret_manager, secret_manager)
+!define secret_manager(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, secret_manager, secret_manager)
+!define secret_managerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, secret_manager, secret_manager)
+!define secret_managerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, secret_manager, secret_manager)
+

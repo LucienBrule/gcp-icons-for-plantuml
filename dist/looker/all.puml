@@ -1,0 +1,19 @@
+'SPDX-License-Identifier: MIT
+sprite $looker [128x128/16z] {
+xPc93gCy38JZS_B-J_ml-ebKQj2Mh6FswAUpvoJZiQ5f--tvykKBRJmeFdXCVl2O_E0n-S6_fVyg-iG23fB_gduR_Alwp_hVIlM9vGUyoqHvMYekvZicRMEN
+Ava_f7v0QY-1ukyO5SghH_YVaPSB-QB1GrVoPAq2Uqaz4x7kykok1V8SUeveFEzKk7qEonfBAgc-dBbYDVP79T-eA82SRhzfAChYsKFdjaXL_48i_W7zuF-3
+-dmUIoxjlrWMAfi_VBPzAvo_T34Kowu_79-ZqkklCHsVqrPs0JxkM8gs_ofssF8eI0aQ3T0Hlk8535KAycKbs1CehHAoq8R5iCQPHoogQgOgJ0KcY6nAeoRc
+wC2WmvGh_G3w4Q13gLNXw17qvVdWFVg2VWQmT0LamDw2wES0jgmAWarrdu7e5m3Qbc1z0zOs2FsI9HRGY1n20WC0fyjZw24aSEK2OiCV4WYWdmB9t_s0Hm81
+_m5mjWhmAlcHGA7nCgi3gnOGimPg0T8uagdbOFWeNFA-JCyQEvzszvi7q9pYVnviTgH7m72ZiScHN04-ojEzvKfkza5t_VhbxT-lfoFH0Bl_PPHe064YJOAq
+5b24uj-h02mXVNUd2MTDOPhy8aDE0cNII3vyBYVzjuA4X0u8NpEPMqee_rqREQK3UJv6oBWAoxoBZeG0AgPJP0_fnu_24zeF_hJ-V7IUsN-kVa_plpx__dJ_
+fym_Bfr_SVxhz2Sbu_e7BwXSm6U_nf5o_TV9Cj87njs-aPnSjxIa6o2P-ybCQVV_KxU_dl3pxsO2EBYMqm7WYSya7hu0jzmVdYKQu3SZqq6ffq-mdxy_-mJA
+Ror0-oj8F_-2qmUrJmZ_HK4x81yVlzcQurVdSwCKM780I-W7q8qlrDSSG3Fw4G3Az28kth7m7m11VmSTRhfXZexm1cXBHFePsEc189_hG2JA9yF03NbPymVS
+Pm3SLg0XusL_FyRv5edpCHy1VgAkr9QY0Ax4X_fQn02SY7SNQYMG63esnX3gi25U18cQ_uzfWNOHNxvy-Gy
+}
+
+GCPEntityColoring(looker)
+!define looker(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, looker, looker)
+!define looker(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, looker, looker)
+!define lookerParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, looker, looker)
+!define lookerParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, looker, looker)
+
