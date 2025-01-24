@@ -53,7 +53,7 @@ Or if you want to see a table of all available services and categories, you can 
 
 This code generates the following diagram:
 
-![HelloWorld Example](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://raw.githubusercontent.com/LucienBrule/gcp-icons-for-plantuml/master/examples/HelloLocalWorld.puml)
+![HelloWorld Example](http://www.plantuml.com/plantuml/proxy?&src=https://raw.github.com/LucienBrule/gcp-icons-for-plantuml/blob/master/examples/HelloWorld.puml)
 
 ---
 
