@@ -27,9 +27,9 @@ You can include icons for specific services or categories. For example:
 @startuml HelloWorld
 
 ' Include common macros and service-specific macros
-!includeurl https://raw.githubusercontent.com/LucienBrule/gcp-icons-for-plantuml/master/dist/GCPCommon.puml
-!includeurl https://raw.githubusercontent.com/LucienBrule/gcp-icons-for-plantuml/master/dist/ai_platform/ai_platform.puml
-!includeurl https://raw.githubusercontent.com/LucienBrule/gcp-icons-for-plantuml/master/dist/anthos_config_management/anthos_config_management.puml
+!include https://raw.githubusercontent.com/LucienBrule/gcp-icons-for-plantuml/master/dist/GCPCommon.puml
+!includ https://raw.githubusercontent.com/LucienBrule/gcp-icons-for-plantuml/master/dist/ai_platform/ai_platform.puml
+!include https://raw.githubusercontent.com/LucienBrule/gcp-icons-for-plantuml/master/dist/anthos_config_management/anthos_config_management.puml
 
 LAYOUT_LEFT_RIGHT
 
@@ -53,7 +53,7 @@ Or if you want to see a table of all available services and categories, you can 
 
 This code generates the following diagram:
 
-![HelloWorld Example](http://www.plantuml.com/plantuml/proxy?&src=https://raw.github.com/LucienBrule/gcp-icons-for-plantuml/blob/master/examples/HelloWorld.puml)
+![HelloWorld Example](https://www.plantuml.com/plantuml/proxy?&src=https://raw.githubusercontent.com/LucienBrule/gcp-icons-for-plantuml/master/examples/HelloWorld.puml)
 
 ---
 
